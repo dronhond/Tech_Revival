@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = E:/游戏/MC/MC各种整合包的整合/.minecraft/versions/技术复兴1.1/saves/新的世界
+}
+

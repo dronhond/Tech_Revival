@@ -1,0 +1,21 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "mythicbotany:alfheim/kvasir"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "irons_spellbooks:iss_guide_book": {
+      "viewedEntries": [
+        "irons_spellbooks:progression/early_game",
+        "irons_spellbooks:progression/late_game"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

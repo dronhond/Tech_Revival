@@ -1,0 +1,942 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "287FA776007CB424"
+	group: "6555AD457948208E"
+	icon: "storagedrawers:creative_vending_upgrade"
+	id: "287FA776007CB424"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A8F52EC95B96647"]
+			id: "3920DF6BF04A869B"
+			rewards: [{
+				id: "7C124053C8381975"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
+			}]
+			subtitle: "现在，你已经完成了全部的科技，是时候窥探不属于你的，也是最纯粹的力量了"
+			tasks: [{
+				id: "6BF3F154CCAB1165"
+				item: "storagedrawers:creative_vending_upgrade"
+				type: "item"
+			}]
+			title: "最纯粹的力量"
+			x: 40.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["3920DF6BF04A869B"]
+			id: "028145ADE65F1FE0"
+			rewards: [
+				{
+					id: "6D174F9960DC5349"
+					item: {
+						Count: 1b
+						id: "minecraft:chest"
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "botania:gaia_ingot"
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "mythicbotany:alfsteel_ingot"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "mekanism:digital_miner"
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "mythicbotany:alfsteel_pick"
+										tag: {
+											Damage: 0
+											mana: 9999
+										}
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "twilightforest:snow_queen_trophy"
+									}
+									{
+										Count: 1b
+										Slot: 5b
+										id: "botania:gaia_pylon"
+									}
+									{
+										Count: 1b
+										Slot: 6b
+										id: "mythicbotany:mana_ring_greatest"
+										tag: {
+											mana: 4000000
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "mythicbotany:alfsteel_helmet"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 8b
+										id: "cataclysm:ignitium_helmet"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 9b
+										id: "mythicbotany:alfsteel_chestplate"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 10b
+										id: "cataclysm:ignitium_elytra_chestplate"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 11b
+										id: "ad_astra:calorite_block"
+									}
+									{
+										Count: 1b
+										Slot: 12b
+										id: "immersiveengineering:component_electronic_adv"
+									}
+									{
+										Count: 1b
+										Slot: 13b
+										id: "mekanism:mekasuit_helmet"
+									}
+									{
+										Count: 1b
+										Slot: 14b
+										id: "ad_astra:jet_suit_helmet"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 15b
+										id: "alexsmobs:shattered_dimensional_carver"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 16b
+										id: "ad_astra:jet_suit"
+										tag: {
+											BotariumData: { }
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 17b
+										id: "mekanism:mekasuit_bodyarmor"
+									}
+									{
+										Count: 1b
+										Slot: 18b
+										id: "refinedstorage:64k_storage_part"
+									}
+									{
+										Count: 1b
+										Slot: 19b
+										id: "mythicbotany:aura_ring_greatest"
+									}
+									{
+										Count: 1b
+										Slot: 20b
+										id: "mekanism:ultimate_control_circuit"
+									}
+									{
+										Count: 1b
+										Slot: 21b
+										id: "mekanism:mekasuit_pants"
+									}
+									{
+										Count: 1b
+										Slot: 22b
+										id: "ad_astra:jet_suit_pants"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 23b
+										id: "ad_astra:jet_suit_boots"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 24b
+										id: "alexsmobs:transmutation_table"
+									}
+									{
+										Count: 1b
+										Slot: 25b
+										id: "mekanism:pellet_antimatter"
+									}
+									{
+										Count: 1b
+										Slot: 26b
+										id: "mekanism:mekasuit_boots"
+									}
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A0A8D1ABD7BCC6F"
+					item: {
+						Count: 1b
+						id: "minecraft:chest"
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Count: 1b
+										Slot: 0b
+										id: "refinedstorage:64k_storage_part"
+									}
+									{
+										Count: 1b
+										Slot: 1b
+										id: "refinedstorage:4096k_fluid_storage_part"
+									}
+									{
+										Count: 1b
+										Slot: 2b
+										id: "mythicbotany:alfsteel_boots"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 3b
+										id: "cataclysm:ignitium_boots"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 4b
+										id: "mekanism:ultimate_control_circuit"
+									}
+									{
+										Count: 1b
+										Slot: 5b
+										id: "cataclysm:ignitium_leggings"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 6b
+										id: "mythicbotany:alfsteel_leggings"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 7b
+										id: "mythicbotany:alfsteel_sword"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										Slot: 8b
+										id: "mythicbotany:mjoellnir"
+									}
+									{
+										Count: 1b
+										Slot: 9b
+										id: "mythicbotany:alfsteel_axe"
+										tag: {
+											Damage: 0
+										}
+									}
+								]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FCEEE6CEFA62560"
+				title: "拿回属于你的东西"
+				type: "checkmark"
+			}]
+			x: 40.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["3920DF6BF04A869B"]
+			description: [
+				"本整合包的第一个核心物品，不是吗？"
+				"假使没有铁锭，你又怎能获得后面一系列的发展？"
+			]
+			hide: false
+			id: "1CED0D7AF75DA406"
+			tasks: [{
+				id: "3157B1D609C5C48A"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "回顾：如常"
+			x: 42.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["1CED0D7AF75DA406"]
+			description: [
+				"好吧，我承认这个序列合成配方有那么一点点史"
+				""
+				"尽管如此，序列合成仍然在你的科技长路中占有极为重要的地位"
+				""
+				"现在，尽管应力已经没那么重要，但是你终于可以拥有无限的应力和流体了，记得创造马达不要转反了"
+			]
+			id: "63BE79059F948BED"
+			rewards: [
+				{
+					id: "3568543E010D22FA"
+					item: "create:creative_motor"
+					type: "item"
+				}
+				{
+					id: "5918ABA3E16EAB8B"
+					item: "create:creative_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "0E3B56DF11AA096D"
+					item: "create:creative_crate"
+					type: "item"
+				}
+				{
+					id: "45180C67A3C92410"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0013AE2EDEF9B36B"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "4906176FC2AAC9B5"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "回顾：机械"
+			x: 42.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["1CED0D7AF75DA406"]
+			description: [
+				"魔法，很神奇吧"
+				""
+				"不得不说，你的盖亚锭是从哪里来的呢？打盖亚掉的，或是用满池魔力复制的？"
+				""
+				"现在，无限的魔力也收入了你的囊中"
+			]
+			id: "08777F5618D58A6A"
+			rewards: [{
+				id: "44FED436E0F2E64C"
+				item: "botania:creative_pool"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F1025FA72E0D6C7"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			title: "回顾：魔力"
+			x: 41.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["63BE79059F948BED"]
+			description: [
+				"&m哦，这该死的多方块结构，&r但是他真的很好用啊"
+				""
+				"自从你获得了工程师手册和工程师锤，你就在搭建多方块结构的路上一去不复返了"
+				""
+				"无论你是否真的在用核能，现在你的电力供应都会源源不断"
+			]
+			id: "0E7F1835079F84D8"
+			rewards: [{
+				id: "30D88BBF5F536A14"
+				item: "immersiveengineering:capacitor_creative"
+				type: "item"
+			}]
+			tasks: [{
+				id: "504AD9CAD1C2BEE6"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "回顾：工程"
+			x: 42.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["08777F5618D58A6A"]
+			description: [
+				"&m什么，泰拉，双厨狂喜&r"
+				""
+				"小心不要把你放在凝聚板上的掉落物给清除掉了"
+				""
+				"这个创造多媒体火花，就是魔法时代最后的星火了"
+			]
+			id: "7AB2CAD5CA595C40"
+			rewards: [{
+				id: "14751E048D5874A9"
+				item: "botania:corporea_spark_creative"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5CCC5B1609454D6B"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					id: "4345D933764A52E3"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			title: "回顾：魔能"
+			x: 41.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["0E7F1835079F84D8"]
+			description: [
+				"一位玩家在游玩此整合包时的锐评：模电转数电"
+				""
+				"一针见血的，自从你解锁了电力，你就再也不用忍受箱子分类和找物品的痛苦了"
+				""
+				"玩家只需要把物品全都放进终端就好了，而控制器要考虑的就多了&m（鸣式还在追我）&r"
+			]
+			id: "6EA6873F5EBE9445"
+			rewards: [
+				{
+					id: "27EE9214FF461F07"
+					item: "refinedstorage:creative_storage_disk"
+					type: "item"
+				}
+				{
+					id: "7B650EFEE1588B42"
+					item: "refinedstorage:creative_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "19A87350951F7128"
+					item: "refinedstorage:creative_storage_block"
+					type: "item"
+				}
+				{
+					id: "0CF125655226216D"
+					item: "refinedstorage:creative_fluid_storage_block"
+					type: "item"
+				}
+				{
+					id: "3677D1C5BD189E25"
+					item: "refinedstorage:creative_controller"
+					type: "item"
+				}
+				{
+					id: "4828D255D1BF86A0"
+					item: "refinedstorageaddons:creative_wireless_crafting_grid"
+					type: "item"
+				}
+				{
+					id: "01EE0D9E8DFA258C"
+					item: "refinedstorage:creative_wireless_grid"
+					type: "item"
+				}
+				{
+					id: "24FDC7A90DA9A334"
+					item: "refinedstorage:creative_wireless_fluid_grid"
+					type: "item"
+				}
+				{
+					id: "0F80A8335338B100"
+					item: "refinedstorage:creative_wireless_crafting_monitor"
+					type: "item"
+				}
+				{
+					id: "71810E1A1F6FA7EB"
+					item: "refinedstorage:creative_controller"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58C7730DD5A1B15E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "refinedstorage:controller"
+					}
+				}
+				title: "Any #refinedstorage:controller"
+				type: "item"
+			}]
+			title: "回顾：网络"
+			x: 42.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["7AB2CAD5CA595C40"]
+			description: [
+				"精灵真是整个整合包中最精(gui)明(zha)的商人了"
+				""
+				"不过为了寻求发展，你还是要通过跟他交易来换取物品"
+				""
+				"在你完成了科技的复兴之后，精灵将在你的世界中淡出"
+			]
+			id: "28050A40C1823086"
+			rewards: [
+				{
+					count: 64
+					id: "20B0E7C698959461"
+					item: "mythicbotany:alfsteel_block"
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 64
+					id: "7FABC54C4632DFCF"
+					item: "botania:elementium_block"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1653840F0DE06BC9"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			title: "回顾：魔商"
+			x: 41.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["6EA6873F5EBE9445"]
+			description: [
+				"在这里，你所看到的是一个电力爆炸的时代"
+				""
+				"你拥有了核电，这意味着你的能源再也不是瓶颈"
+				""
+				"得益于各模组的电力通用，你的各个机械也能够满速运转"
+				""
+				"在最后，你的气体原材料也不再是问题"
+			]
+			id: "3F1E92A38D31132C"
+			rewards: [
+				{
+					id: "59DC7853DC4B78A6"
+					item: "integrateddynamics:energy_battery_creative"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07431F8BF6EEE042"
+					table_id: 5721045305902072820L
+					type: "choice"
+				}
+				{
+					id: "03F1A56AD743A8E0"
+					item: "mekanism:creative_chemical_tank"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "02E5A36735036A21"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			title: "回顾：理化"
+			x: 42.5d
+			y: -24.5d
+		}
+		{
+			dependencies: ["28050A40C1823086"]
+			description: [
+				"盖亚，一个与你厮杀半个整合包的boss"
+				""
+				"整合包中的许多东西都用到了盖亚之魂或者盖亚魂锭"
+				""
+				"在这场决斗的末尾，你最终获得了盖亚的全部"
+			]
+			id: "5C000FCF251DB62E"
+			rewards: [{
+				count: 64
+				id: "209F6C4422D1D2DF"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BF0BC22895D1691"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			title: "回顾：魔魂"
+			x: 41.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["3F1E92A38D31132C"]
+			description: [
+				"就像NASA工作台的任务副标题所言，你真的抵达了星辰大海"
+				""
+				"在故事的最后，用你亲手打造的火箭，放一场最绚丽的烟花吧"
+				""
+				"（发射火箭启动后，长按2秒shift，让火箭自由上升）"
+			]
+			id: "4DEFBA3B2F19882E"
+			rewards: [{
+				id: "5B1F3EBA71EABB5B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A05BF73F2CD3717"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "回顾：星辰"
+			x: 42.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["6EA6873F5EBE9445"]
+			description: [
+				"男人的浪漫"
+				""
+				"有哪个男孩子小时候没有玩过枪呢，但我们都苦于不能真的发射出子弹"
+				""
+				"在这里，你可以实现你童年的幻想，我将给你无限的子弹，现在你可以尽情射击了"
+			]
+			id: "38FE859B3FC892D5"
+			rewards: [
+				{
+					id: "7363E4E0C9B41021"
+					item: {
+						Count: 1b
+						id: "tacz:ammo_box"
+						tag: {
+							Creative: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D242524E1EF1982"
+					item: {
+						Count: 1b
+						id: "tacz:ammo_box"
+						tag: {
+							AllTypeCreative: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30BB76DD5F486CCD"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "回顾：枪械"
+			x: 44.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["5C000FCF251DB62E"]
+			description: [
+				"&m此魔兽非彼《魔兽》&r"
+				""
+				"征服了灾变mod的boss之后，你获得了各种帅气又不失使用价值的装备（确信）"
+				""
+				"最终，你获得了全部的材料，以及一只可爱的……利维坦？"
+			]
+			id: "136620507812A869"
+			rewards: [
+				{
+					count: 64
+					id: "2C2F9A9A6C4F68A4"
+					item: "cataclysm:enderite_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4660728D397CC518"
+					item: "cataclysm:witherite_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5A1C266AC607307D"
+					item: "cataclysm:ignitium_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4BF271C0DDF7DDD4"
+					item: "cataclysm:black_steel_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "55FB57F63C2F806A"
+					item: "cataclysm:cursium_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0206A9F8F182F6AA"
+					item: "cataclysm:ancient_metal_block"
+					type: "item"
+				}
+				{
+					id: "65E0250A1A257916"
+					item: "cataclysm:the_baby_leviathan_bucket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2E854EBBD18BA640"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					id: "260508ABE893F79D"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					id: "2AF9E3ECA128A5E2"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					id: "4203C54CC02CFDAD"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					id: "4402DE9E74FECE49"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+				{
+					id: "15A138C2194AC17C"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+				{
+					id: "52933CB8B9113260"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+			]
+			title: "回顾：魔兽"
+			x: 41.0d
+			y: -23.0d
+		}
+		{
+			dependencies: [
+				"1CED0D7AF75DA406"
+				"0E7F1835079F84D8"
+				"4DEFBA3B2F19882E"
+				"63BE79059F948BED"
+				"38FE859B3FC892D5"
+				"3F1E92A38D31132C"
+				"6EA6873F5EBE9445"
+				"136620507812A869"
+				"08777F5618D58A6A"
+				"28050A40C1823086"
+				"7AB2CAD5CA595C40"
+				"5C000FCF251DB62E"
+			]
+			description: [
+				"感谢您游玩《科技：复兴》整合包"
+				""
+				"如果你有一些建议，可以在mcmod百科中评论或联系制作组成员"
+			]
+			id: "6CD83DE8471622E8"
+			subtitle: "毕业咯~"
+			tasks: [{
+				id: "31C7B7252FFF5FC4"
+				title: "复兴"
+				type: "checkmark"
+			}]
+			x: 45.5d
+			y: -23.0d
+		}
+		{
+			dependencies: ["6CD83DE8471622E8"]
+			description: ["提供物品注册及部分模型/贴图制作，魔改了少数配方"]
+			id: "2AEBA80353B09E97"
+			subtitle: "拉了一车"
+			tasks: [{
+				id: "6B3F5EC5E7A217C9"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								900815705
+								-80916975
+								-1779877429
+								-165171585
+							]
+							Name: "llycdasanbing"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczODgwOTcxNzEyNiwKICAicHJvZmlsZUlkIiA6ICIzNWIxNWI1OWZiMmQ0ZTExOTVlOTM5Y2JmNjI3YWU3ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJsbHljZGFzYW5iaW5nIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY0NTA3ZTVkMTU4MTBlOGJiNTJiNmRmZmM2Yjg1ZDYwOGUwZjVhYjVkM2Q0ZDZmZDJhNGE2NDY4YWMxZDNmODEiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "制作组成员：llycdasanbing"
+			x: 47.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["6CD83DE8471622E8"]
+			description: ["进行了主线章节及绝大部分配方魔改"]
+			id: "52778060B2F28101"
+			subtitle: "种轰的"
+			tasks: [{
+				id: "37522BDED4BFBDD9"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1275539577
+								491275291
+								-1657732587
+								-932768560
+							]
+							Name: "dronhond"
+							Properties: {
+								textures: [{
+									Signature: "GudI+iraTNL9b/82V7LXeMFkXP3tZ/UEexM5Vlnoub3GG51JPOy/3Ivivh3ocE2kThPtmbJkr3b9iNnao1FsYRxo7GxsZTRddck6hBcrbrfmhQ5bDfZF+G9y5nipGVUPiM+VfFPl9/Ai3ErMFxoiPw3OXQz046nLU/XQuwiB+1hEe78g+CCRzLmyeydu5zxHcLpgVDg5Zko9VjQLLTDt/l3x06iF5jyLpHvwznbnCoahq7ijW7L1uX3LiAXqnAmPojyuAwKTYblChgmciXcV8Z0Tg3uPNXZWofNYQXa819BfrcTEiFhHQ68kzfrSGiI1aITJDWHPE0NVxoNgHlfQohV7L8by3jq9SUiy6g6RstVk82ROReFHq8bhKSFsC7l14Syy/fcfZHUo4rT1XaJuYj6vfJ6eOrYuQLLqY0G37FTXAPtBotsWbgTlfYFjIJVO8Sg+vrg+1nZAesx9qLtTRISwltULspIr1UiAQn/BEWMGLRVIYSWmvvTeGR9ArpXJ38yWJHE9m6mvSnLyDABVgC0So8sx55D65uTbvK09MB9InH3gwWfAILD+XluCrhP54q4aV/ABEoXOODQl9ptRFwhO2rH4Msqe80p6oSg42YVVsZwOLGUq+Yyc9vg9+8KgE3hnwjWqhp0BX3QW8R3ae+0wJQhxvCrztflrL9/vTow="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczODgxOTYxMDk0NywKICAicHJvZmlsZUlkIiA6ICI0YzA3MzA3OTFkNDg0NDFiOWQzMTAyMTVjODY3MTRkMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkcm9uaG9uZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMzYzMTFmM2QxYmE0OTQyYmMxY2QxOWNkOTg2YzNjYjg3ZWE1MzIxNmU1ZGI0N2U0MjQ4M2EzZjkzZWE5ZGU5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "制作组成员：dronhond"
+			x: 47.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["6CD83DE8471622E8"]
+			description: ["绘制了部分物品的贴图"]
+			id: "3B291E22EB08D42A"
+			subtitle: "渡渡龙"
+			tasks: [{
+				id: "395D724DF3119046"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1208491208
+								1313359266
+								-1671313909
+								-524420023
+							]
+							Name: "Dragon_142356"
+							Properties: {
+								textures: [{
+									Signature: "NebCwNPaVobVn/Xh/PfK7OjaLqeOhtmf1Z6JIHc/fE6SIp/yFxBvmCOXvq0IA2HUr+0hYS1/GFzz/OOd5Sr8I91tywHQkD29VMg1ZorRk/nHLOgHV851qN7yKlMAhFp2wiPPHDp7slPcxrngxfYT5pyGHUhq6g5kfzWVsUEU2ZX22O5PDi1WIQWYAqRhQZ0Hqg15GFKyWg0rliw9BD1reJfV18MZhASTZ1hLx5VvnhpnxsvJVlkvryziLt8wH7pcdqvSsCZW1upPD4/sJ7sc5kwLzSuFtUHmGrGLc+njWXtrcIxbm/uRqOobtmcSXBR0bliXXgoxlFVv+F0xpBps2USNAqj4kV0ddTQkQoI7hZjGRd/dIbjlSjE4NBATP32fkcL5+gaus4WLTqDMrsu9p89YqUPe9884n246vBN/Uhr/PzSSWMswVwWTq3Z2Adg+6zeive8kTlUbLjmTPZTuGX5t9Dx7QbhSfuIpeedhprhpaouiYravoecGHoSfbIE/yLV3Uvo4Sh6FuSwI6d4XHR/MkSze/vZ7slbI3gtxBIfgQtEkci8hyr9cDuZ6oY0RlC/jflh8Ryu+jWvUFo0Er+t7XHmbt5jcEW3RQqyT8cZXMa4X2O4CrWj7GuGiTFr/4V56Fq8EcGgw3kR4AsC4mNHvVbJGvVRwCWd2a9qFJCQ="
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTczODgxOTk4MDA5MiwKICAicHJvZmlsZUlkIiA6ICJiN2Y3ZTMzODRlNDg0NWEyOWM2MWM2MGJlMGJkZmM0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmFnb25fMTQyMzU2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MwNjlmOTQwZmExNmRmYjEwNWEyODNmODczYmE3NjA4Y2M3MzdmNDA2YWE2ZTAwZTFhZGQyNjIzMzY1MDM5NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "制作组成员：Dragon_142356"
+			x: 47.0d
+			y: -22.0d
+		}
+	]
+	title: "终章：世界之外"
+}

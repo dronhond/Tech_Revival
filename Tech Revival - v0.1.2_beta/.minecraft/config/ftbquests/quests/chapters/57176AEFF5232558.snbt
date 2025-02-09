@@ -1,0 +1,603 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "57176AEFF5232558"
+	group: "3BF9C9D81FD8243A"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "57176AEFF5232558"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C5D716381A09CE7"]
+			hide_dependent_lines: true
+			id: "317388193FB404AD"
+			subtitle: "一切功能的开端"
+			tasks: [{
+				id: "67B1F9C0C80C5274"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "59273F33054B6B74"
+			subtitle: "最简单的移动存储"
+			tasks: [{
+				id: "459B1C928FFEE2B5"
+				item: "sophisticatedbackpacks:backpack"
+				title: "背包"
+				type: "item"
+			}]
+			title: "背包"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["59273F33054B6B74"]
+			id: "0960D38BED00F5FA"
+			subtitle: "微小的扩容"
+			tasks: [{
+				id: "690F201F48A342C1"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0960D38BED00F5FA"]
+			id: "025CF2B56F253F93"
+			subtitle: "双倍容量"
+			tasks: [{
+				id: "30D5A36D006CC5E5"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["025CF2B56F253F93"]
+			description: ["穿戴在背饰栏后，你将不会被猪灵攻击"]
+			id: "1FA3E1C5A7EC5417"
+			subtitle: "猪灵也喜欢"
+			tasks: [{
+				id: "4258849AF0E013CC"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1FA3E1C5A7EC5417"]
+			id: "205D9BB913CB2939"
+			subtitle: "什么，这不是毛巾，这是压缩背包，空间遇钻石变大变高"
+			tasks: [{
+				id: "26E0C004B4989AA7"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["205D9BB913CB2939"]
+			id: "34D04C9EE2A8BE8B"
+			subtitle: "最终版本"
+			tasks: [{
+				id: "111DF4410033BA4E"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "69C1B28E2DD52318"
+			subtitle: "论如何让背包变成垃圾桶"
+			tasks: [{
+				id: "7F8E6421614057BC"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "1601ACD5C8BAE45A"
+			subtitle: "这下不会变成垃圾桶了，但你为什么不做高级升级呢"
+			tasks: [{
+				id: "58069CFFE4081440"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69C1B28E2DD52318"]
+			id: "359A2B0D7D9E151F"
+			subtitle: "暴风吸入"
+			tasks: [{
+				id: "6078B298F9649818"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "73264B6D425819C6"
+			subtitle: "小康生活"
+			tasks: [{
+				id: "4BC752ECE08CBFF8"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "06032FB893C595B0"
+			subtitle: "小心不要把石英变成石英块了"
+			tasks: [{
+				id: "76B04BE677188837"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "67F2A6FBF3836646"
+			subtitle: "虚空之力"
+			tasks: [{
+				id: "387BC2F7BFD1F63E"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "2108C1C65B4C850B"
+			subtitle: "安山岩漏斗"
+			tasks: [{
+				id: "1B056D4FF926E31D"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "4D701760D1DFF100"
+			subtitle: "安山岩漏斗2号"
+			tasks: [{
+				id: "3FE59C25EDF56D8A"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "2EFE29BA413614EB"
+			subtitle: "tweakeroo2号（确信）"
+			tasks: [{
+				id: "36900A409EBC5C62"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "744342894433239B"
+			subtitle: "套包！"
+			tasks: [{
+				id: "644C963DA47EA2F0"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "06017A6E12F81459"
+			subtitle: "永恒的伙伴"
+			tasks: [{
+				id: "10A9482D8779F3D4"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "0A1AD96B290B1C4D"
+			subtitle: "“热”门人类"
+			tasks: [{
+				id: "48D1B785F4095999"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "5D58503CCBF82EF2"
+			subtitle: "行走的烤箱"
+			tasks: [{
+				id: "61625EFD34744B6C"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "11011FF0C8DBD78E"
+			subtitle: "在背包里也能炼铁"
+			tasks: [{
+				id: "2D99FB7043B7D588"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "39414EC73C731977"
+			subtitle: "工作台蛋糕！"
+			tasks: [{
+				id: "11B1D47148F90E29"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "7A4E054DA205D007"
+			tasks: [{
+				id: "69505B9700B11C83"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "612F2718133822CF"
+			subtitle: "随身听"
+			tasks: [{
+				id: "1FF584CF5C1385A0"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "14E081B69F31EF19"
+			subtitle: "tweakeroo（确信）"
+			tasks: [{
+				id: "019D0910B96C3B86"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "581B3C39A0815D7A"
+			subtitle: "背包里放个水瓶很正常吧"
+			tasks: [{
+				id: "77C379360BCE1885"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "19D2CD1C96DAD0AC"
+			subtitle: "无线终端的好搭档"
+			tasks: [{
+				id: "2E181EB5E4B0B2F7"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "3828CC90EFFB0D33"
+			subtitle: "传输流体"
+			tasks: [{
+				id: "0B43442D35065476"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "292BF76D9E89F100"
+			subtitle: "无限耐久的铁砧"
+			tasks: [{
+				id: "597C62D6943F28F8"
+				item: "sophisticatedbackpacks:anvil_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1601ACD5C8BAE45A"]
+			id: "568F0102B28DD297"
+			subtitle: "你要不还是去做高级升级吧"
+			tasks: [{
+				id: "5AFCA7A0490D77BC"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["359A2B0D7D9E151F"]
+			id: "3E1EE83059C5DABD"
+			subtitle: "你是不是把你朋友的东西吸走了"
+			tasks: [{
+				id: "684DC9FFA690F6EC"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["73264B6D425819C6"]
+			id: "7C740A84BB6068B8"
+			subtitle: "妈妈一般的贴心"
+			tasks: [{
+				id: "694E20F6BC5C910A"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06032FB893C595B0"]
+			id: "3CA74EF36D77BD64"
+			subtitle: "堪比自动合成"
+			tasks: [{
+				id: "6C8CF83A14E52D3B"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69C1B28E2DD52318"]
+			id: "118376C4F27F3576"
+			subtitle: "你要不还是去做磁铁升级吧"
+			tasks: [{
+				id: "6A54CB55FF2D73F1"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["14E081B69F31EF19"]
+			id: "350505052AF04B94"
+			subtitle: "终于不用担心一挖全挖掉了"
+			tasks: [{
+				id: "097CBD02D6FEB7C2"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67F2A6FBF3836646"]
+			id: "5AE14652F37E0CC9"
+			subtitle: "终于不用怕不小心销毁什么东西了"
+			tasks: [{
+				id: "56FD3EDBFD071ADA"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2108C1C65B4C850B"]
+			id: "51D1D51B02E0EDD1"
+			subtitle: "黄铜漏斗"
+			tasks: [{
+				id: "1BE2C7095CC1E5B8"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D701760D1DFF100"]
+			id: "67816C7BED2CF92A"
+			subtitle: "黄铜漏斗2号"
+			tasks: [{
+				id: "0A0316ED38B193B9"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EFE29BA413614EB"]
+			id: "6CB47A29AAC42278"
+			subtitle: "作者自己也没用明白"
+			tasks: [{
+				id: "3AAB1BB34476C829"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A1AD96B290B1C4D"]
+			id: "25F5869E93E5E952"
+			subtitle: "炽铁背包"
+			tasks: [{
+				id: "5204FB78B7BB1305"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D58503CCBF82EF2"]
+			id: "45492BA075044C17"
+			subtitle: "这下不缺干海带了"
+			tasks: [{
+				id: "3448ADA8575A599B"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["11011FF0C8DBD78E"]
+			id: "39B92127B90F8723"
+			subtitle: "好了，你可以去当挖矿尼哥了"
+			tasks: [{
+				id: "4FEDF2A30670D3E8"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3828CC90EFFB0D33"]
+			id: "0640CD32A0855FF3"
+			subtitle: "再也不怕倒错流体了"
+			tasks: [{
+				id: "0BF506F489945FAB"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0640CD32A0855FF3"]
+			id: "27FCDE0ACD96EB5D"
+			subtitle: "喷射经验"
+			tasks: [{
+				id: "3AD7C5AFA23BD557"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["317388193FB404AD"]
+			id: "4E1A7053295BB45A"
+			subtitle: "不可堆叠物品：女娲"
+			tasks: [{
+				id: "1EF0686E81D5A5F5"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E1A7053295BB45A"]
+			id: "7A580765FCCC6F12"
+			subtitle: "丸辣！拿不下来辣！"
+			tasks: [{
+				id: "74F254770C970C11"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A580765FCCC6F12"]
+			id: "177CCFADF5DA9628"
+			subtitle: "指数爆炸"
+			tasks: [{
+				id: "2C68F22B95D2CF00"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["177CCFADF5DA9628"]
+			id: "491921EA6364665D"
+			subtitle: "这才是真正的堆叠升级"
+			tasks: [{
+				id: "6EAA795F1D40B522"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["491921EA6364665D"]
+			id: "660C4555302FF1BC"
+			subtitle: "往升级槽里放点别的吧，你能装得满那好几万的东西吗"
+			tasks: [{
+				id: "20453EF8757E33E4"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+	]
+	title: "移动存储：精妙背包"
+}

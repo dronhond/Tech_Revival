@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "29670B11D313796F"
+	group: ""
+	id: "29670B11D313796F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"本整合包为深度魔改整合包，对大部分配方都进行了修改，主线中所有被修改了配方的物品都设置了任务点，&4&l建议您在熟练掌握JEI使用后&r&r再进行游玩。"
+				""
+				"一些简单的提示："
+				"打开物品栏后，右侧显示了许多物品/方块，这个部分就是JEI的GUI，你可以在搜索框中进行搜索，支持拼音搜索和模糊搜索（例：搜索“置物台”“zwt”“zhiwutai”“ziwutai”都可以搜索到机械动力的置物台）。"
+				""
+				"在JEI的GUI中，将鼠标停留在物品上，按鼠标左键可以查看合成该物品配方，按鼠标右键可以查看该物品参与合成的配方。在物品栏或者JEI的GUI中，默认按R（Recipes）可以查看合成该物品的配方，默认按U（Usage）可以查看该该物品参与合成的配方"
+				""
+				"更多进阶内容您可以搜索相关的教程。"
+			]
+			id: "56C716BAFEC36418"
+			tasks: [{
+				id: "7BE424FB128D7F32"
+				title: "关于JEI"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: ["由于本整合包仍然处于开发初期，任务书里并没有包含全部mod的具体玩法。关于&l&6机械动力&r&r，您可以将光标停留在物品上按w进行思索；关于&l&7沉浸工程&r&r和&l&2植物魔法&r&r，您可以自主地合成相关的教程书本，ID分别为“工程师手册”和“植物魔法宝典”；关于&l&3动态联合、你将要去的生物群系、Alex的生物、铁魔法&r&r的相关内容，您可以在开局自动获得的教程书本中查看"]
+			id: "681BFB717D7FD8C8"
+			tasks: [{
+				id: "035BC723E4E79386"
+				title: "关于模组具体玩法"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"本整合包装载的玩法mod较多，您可能需要较高的硬件配置。如果是多人游戏，请尽量让您的朋友中电脑配置最高的人作为主机。如果您作为主机使用内网穿透进行游戏，在加入人数较多时&6&l出现卡顿、其他玩家出现连接不佳&r&r的情况，可以查看您电脑的CPU占用率，有可能是您的CPU不足以处理内网穿透的发包需求。如果是，您可以&l&4牺牲模拟距离换取您和您朋友的游戏体验。&r&r"
+				"另外，无论您是否作为主机，都建议您尽可能多的分配内存，否则可能因为实体过多而出现卡顿。"
+			]
+			id: "23D353B793B1D144"
+			tasks: [{
+				id: "699DDA914067853A"
+				title: "关于硬件要求和多人游戏"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: ["本整合包具有明确的科技阶段，所以对一些同矿词的物品，如石油，进行了限制，在本整合包中，您&6&l仅可以使用沉浸工程的石油&r&r，&6&l不可以使用机械动力的发电机&r&r，注意不要在这些物品上浪费资源"]
+			id: "1A62728B137DEA4D"
+			tasks: [{
+				id: "113C611DD22709DA"
+				title: "关于科技阶段"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: ["若您在游玩《科技：复兴》的过程中发现任何问题，或者有任何建议和意见，欢迎您直接在您获取整合包的途径下（如mod百科、b站等）评论或通过bilibili私信我们，后续我们会添加更多的联系方式"]
+			id: "4FCB8D265F765201"
+			tasks: [{
+				id: "514C8F7B17455F92"
+				title: "关于反馈"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "18251A6587D4CD14"
+			ignore_reward_blocking: true
+			invisible: true
+			rewards: [{
+				auto: "enabled"
+				id: "76FE8DBFE6135324"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			size: 0.1d
+			tasks: [{
+				id: "241F2BBA044E2873"
+				optional_task: true
+				type: "checkmark"
+			}]
+			title: "获得任务书"
+			x: -37.0d
+			y: -21.7d
+		}
+		{
+			description: ["这最初是为了在开局时给予任务书，请移步彩蛋页获得你的奖励"]
+			id: "775820235323C249"
+			size: 0.1d
+			tasks: [{
+				id: "1D9E42F553167E28"
+				title: "恭喜你发现了彩蛋——不可见"
+				type: "checkmark"
+			}]
+			x: -36.85d
+			y: -21.7d
+		}
+	]
+	title: "游前须知"
+}

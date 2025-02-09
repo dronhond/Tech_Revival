@@ -1,0 +1,76 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6574F8D731645AED"
+	group: "080B897CB0E15AA4"
+	id: "6574F8D731645AED"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E4D04AA0BB17333"
+			invisible: true
+			rewards: [
+				{
+					count: 10
+					id: "7AE9E68746574D2F"
+					item: "alexsmobs:maraca"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "725F8163B09EF092"
+					item: "alexsmobs:spawn_egg_cockroach"
+					type: "item"
+				}
+			]
+			subtitle: "把一个沙锤扔给蟑螂，让他在音乐中起舞"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/la_cucaracha"
+				criterion: ""
+				id: "0048B08B3410F1DB"
+				type: "advancement"
+			}]
+			title: "彩蛋（其一）"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["775820235323C249"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 5
+					GunFireMode: "SEMI"
+					GunId: "tacz:ai_awp"
+					HasBulletInBarrel: 1b
+				}
+			}
+			id: "05AA2DD8C842AD79"
+			rewards: [{
+				count: 64
+				id: "571EB88698A10720"
+				item: {
+					Count: 1b
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50bmg"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "这么好的眼力，建议单挑狙击手血鹰"
+			tasks: [{
+				id: "6DA1047F288B93F1"
+				title: "领取奖励"
+				type: "checkmark"
+			}]
+			title: "彩蛋（其二）"
+			x: 1.0d
+			y: 0.5d
+		}
+	]
+	title: "彩蛋"
+}

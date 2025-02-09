@@ -1,0 +1,1162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3232091078CD0249"
+	group: "6555AD457948208E"
+	icon: "create:iron_sheet"
+	id: "3232091078CD0249"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["388D4CA5F79F8315"]
+			id: "7AC6A42B30846BDB"
+			rewards: [{
+				id: "73A3A29E72FFE431"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "向着更深层进发"
+			tasks: [{
+				id: "6B279C9E11B70E78"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["388D4CA5F79F8315"]
+			id: "606E30452411DE27"
+			rewards: [{
+				id: "3D86548689E63E57"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "安山合金，伟大的物品，低廉的造价和广泛的用途让它成为了你工业之旅的最佳助手"
+			tasks: [{
+				id: "043A75B15EFC8A6A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7AC6A42B30846BDB"]
+			id: "54DFAC2F3CBE2D72"
+			rewards: [{
+				id: "651BEC0460732B47"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "让某些物品承受压力，会给你意想不到的惊喜"
+			tasks: [{
+				id: "7451C9649436EC51"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["388D4CA5F79F8315"]
+			id: "62CD0AF3C24448EE"
+			tasks: [{
+				id: "2591E6D476E7386A"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"62CD0AF3C24448EE"
+				"08B712D2D2857F22"
+			]
+			id: "1E4C4F39D34E50DB"
+			tasks: [{
+				id: "76D3ABA163D78E71"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"62CD0AF3C24448EE"
+				"7C5D716381A09CE7"
+			]
+			id: "388228E15320A38E"
+			subtitle: "这种空白的符文是重要的魔力载体"
+			tasks: [{
+				id: "7629A4D150F74283"
+				item: "irons_spellbooks:blank_rune"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["388228E15320A38E"]
+			id: "08B712D2D2857F22"
+			tasks: [{
+				id: "4AD78772B6B525E3"
+				item: "irons_spellbooks:nature_rune"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["606E30452411DE27"]
+			id: "2D1572E87E6D25E1"
+			rewards: [{
+				id: "13F2785947AD7164"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "使用安山合金对着一块去皮原木右键，即可获得机壳"
+			tasks: [{
+				id: "6FD233CC58A98450"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["606E30452411DE27"]
+			id: "133DCD899F30DB21"
+			rewards: [{
+				id: "383F767897964B51"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "13EC1A9C73229309"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "4EC464F0EF872258"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "2A862C71EEFFDB2D"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "3934714078577F09"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "3E5ADBCDE69884AC"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			title: "传动装置"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["606E30452411DE27"]
+			id: "4DAE41051109BC9A"
+			rewards: [{
+				id: "6B521007EC9C3DD4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "免费的动力"
+			tasks: [
+				{
+					id: "46BC4CCE924F18D6"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "502B7849238A066D"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2D1572E87E6D25E1"]
+			id: "23A5ADDA12C89271"
+			rewards: [{
+				id: "1F8EE2FF89D1E7D9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "的确基础"
+			tasks: [
+				{
+					id: "5BAB8D5EDA7D1941"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "295C219B6A90A38D"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					id: "77C016CF791F9755"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+			]
+			title: "基础物流"
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2D1572E87E6D25E1"]
+			id: "25A9B5DD83CFADA4"
+			rewards: [{
+				id: "67D05536577E94E7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "并非自动化"
+			tasks: [
+				{
+					id: "58110C8205BC972E"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4A1B16ACDCD65103"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "1ED0B200C42B66FD"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "66B2B77E0776277F"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "动力加工"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"21A68CE2DFE5FC8A"
+				"133DCD899F30DB21"
+			]
+			id: "6545368C3E154C49"
+			rewards: [{
+				id: "7FF0ED6656DC77F8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "好吧，你要用什么物质装满储罐呢"
+			tasks: [
+				{
+					id: "0691DEDC71CB1E88"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "599ACFDA49E130E9"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "58782FB8CCFFD083"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "3DB48F42A4F841A5"
+					item: "create:copper_casing"
+					type: "item"
+				}
+			]
+			title: "流体运输与存储"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D1572E87E6D25E1"]
+			id: "163587B09D22310A"
+			rewards: [{
+				id: "70178A5F6C9A87CB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这时候有聪明的小朋友就要问了，为什么没有动力钻呢"
+			tasks: [
+				{
+					id: "750C09BF48604458"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "23545D4F8538C02D"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "1AE70CE46D0A7EF2"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "19349A5E74462B68"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "0763DB724C1AD793"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "解放双手"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1B48B05CE35189CD"
+				"5323DCAB3A92D843"
+			]
+			id: "6C2CAE75EDC1C019"
+			rewards: [{
+				id: "0278B8C4EA3A133D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "合金的伊始"
+			tasks: [{
+				id: "6B3B1A1F23379ACC"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1E4C4F39D34E50DB"]
+			id: "1B48B05CE35189CD"
+			rewards: [{
+				id: "54D5B3175AAD0F36"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "火力发癫？"
+			tasks: [{
+				id: "0B8DCD5FA042D896"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C2CAE75EDC1C019"]
+			id: "6C48CB1291B79E9E"
+			subtitle: "使用合金窑来冶炼黄铜"
+			tasks: [{
+				id: "3ED89814F9ED0A35"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["25A9B5DD83CFADA4"]
+			id: "09E6129652A0A056"
+			subtitle: "又硬又平"
+			tasks: [{
+				id: "76CA9816BE79E482"
+				item: "create:iron_sheet"
+				title: "铁板"
+				type: "item"
+			}]
+			title: "铁板"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1B48B05CE35189CD"
+				"09E6129652A0A056"
+			]
+			id: "5323DCAB3A92D843"
+			rewards: [{
+				id: "65B9B48329DE0382"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "用它敲击多方块结构来唤醒它们"
+			tasks: [{
+				id: "1983DC7CFD0C4268"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B4C95C7F3843651"]
+			id: "7C5D716381A09CE7"
+			rewards: [{
+				id: "35D30585E38FD92D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "拥有了奥术源质，你就可以制作一些其他物品了"
+			tasks: [
+				{
+					id: "630B815DDE091EA1"
+					item: "irons_spellbooks:magic_cloth"
+					type: "item"
+				}
+				{
+					id: "0E96918598B44D8C"
+					item: "irons_spellbooks:arcane_ingot"
+					type: "item"
+				}
+			]
+			title: "奥术材料"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7C5D716381A09CE7"]
+			id: "4C5BDB5CA5272F7D"
+			rewards: [{
+				id: "14B7A2CCF080F1C5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "最简单的移动存储"
+			tasks: [{
+				id: "21DA0AF974B8248C"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B48B05CE35189CD"]
+			id: "496807AEAC011968"
+			tasks: [
+				{
+					id: "22E90A7F04DFF785"
+					item: "botania:mana_string"
+					type: "item"
+				}
+				{
+					id: "1C3A7C019CBD8AEB"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "47034DCA05CC0643"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			title: "魔力材料"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C48CB1291B79E9E"]
+			id: "3AB458CC4E21AC37"
+			rewards: [{
+				id: "2360FD7B796673BC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "你指我干什么"
+			tasks: [{
+				id: "779FDF44328547C3"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C48CB1291B79E9E"]
+			id: "06AD355EA3C0DF12"
+			tasks: [{
+				id: "7CECB8102CE00FF5"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AB458CC4E21AC37"]
+			id: "578E754FC4D76A76"
+			rewards: [{
+				id: "4A0E4D658C9FE486"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这就是人机"
+			tasks: [{
+				id: "557487E8571E21AE"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["406A0692B8488965"]
+			id: "0616DE83584D0CA6"
+			tasks: [
+				{
+					id: "6ABFE392431C972D"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "26D543841B675285"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"06AD355EA3C0DF12"
+				"578E754FC4D76A76"
+			]
+			id: "5C557CE5986B91FD"
+			tasks: [{
+				id: "23E36B64C126054B"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C557CE5986B91FD"]
+			id: "6C02542446246CA5"
+			rewards: [{
+				id: "1B498767CC2F68B2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "宇宙最强的动态结构"
+			tasks: [{
+				id: "18CA9609FFDE1F06"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["496807AEAC011968"]
+			id: "5B69E735BADB9146"
+			rewards: [{
+				id: "746DFBF66708BD60"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "另一种符文的力量"
+			tasks: [{
+				id: "2F5A785868E79E16"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["578E754FC4D76A76"]
+			id: "72FC4A6078D0709C"
+			tasks: [{
+				id: "4A6526646641A704"
+				item: "irons_spellbooks:fire_rune"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6545368C3E154C49"]
+			id: "24291ED8EC07DD0B"
+			tasks: [{
+				id: "60966E0F61A0C683"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["354D3425F716E9A1"]
+			id: "5AD3B14B39D5EE5A"
+			tasks: [{
+				id: "120A8B473C44DB1E"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["09E6129652A0A056"]
+			id: "29946C1BA2CFCE05"
+			rewards: [{
+				id: "4BAA4961F2607CBD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "如你所见，比锻造台更好一点的铁砧"
+			tasks: [{
+				id: "622E82E1475DF8FA"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"29946C1BA2CFCE05"
+				"578E754FC4D76A76"
+				"72FC4A6078D0709C"
+			]
+			id: "354D3425F716E9A1"
+			rewards: [{
+				id: "099A574690E71C1A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "制作钢的必备催化剂，奥术时代的先驱"
+			tasks: [{
+				id: "2F1ADE5482E3AB44"
+				item: "irons_spellbooks:arcane_anvil"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6545368C3E154C49"]
+			id: "093530719A66EB80"
+			rewards: [{
+				id: "11B00A5100E68DC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "31744C8D3BE0C47E"
+					item: "sophisticatedbackpacks:tank_upgrade"
+					type: "item"
+				}
+				{
+					id: "7589AF482A724ADA"
+					item: "sophisticatedbackpacks:pump_upgrade"
+					type: "item"
+				}
+				{
+					id: "5C8F5005F0281939"
+					item: "sophisticatedbackpacks:advanced_pump_upgrade"
+					type: "item"
+				}
+				{
+					id: "5B878ADDD415EAE2"
+					item: "sophisticatedbackpacks:xp_pump_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C5D716381A09CE7"]
+			id: "714B2C7BC1B9A821"
+			tasks: [{
+				id: "00CA9E57153D95C7"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74AB6C226492C6BE"]
+			id: "0F2330CC10759C2D"
+			rewards: [{
+				id: "4FEC37072C4FB6C5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "无需燃料"
+			tasks: [{
+				id: "4E87D4E84C4357EE"
+				item: "immersiveengineering:cokebrick"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["74AB6C226492C6BE"]
+			id: "0DF3A6F196BBB7E1"
+			tasks: [{
+				id: "504BC5F207353F30"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F2330CC10759C2D"]
+			id: "7D298F76F138ED9C"
+			rewards: [{
+				id: "7D58DB01EB6EE971"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不再是爆仓废物"
+			tasks: [{
+				id: "3CC58FD04C03D5FC"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0F2330CC10759C2D"]
+			id: "359D87AB82A4249E"
+			rewards: [{
+				id: "13F145EB23F842A5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "足以加热高炉"
+			tasks: [{
+				id: "2D65C7F3B7810C3F"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"354D3425F716E9A1"
+				"67154A49F6FCAFC2"
+			]
+			id: "0C71477726479138"
+			rewards: [{
+				id: "2AC3D94A7B4D381E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "仅仅是握在手中，你就能感觉到它所蕴含的强大力量"
+			tasks: [{
+				id: "62E5C43D32B165B1"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["767C43581237C2EA"]
+			id: "53D71F1F0EA7632E"
+			rewards: [
+				{
+					id: "5256457B50763837"
+					item: "create_central_kitchen:chocolate_cake_slice"
+					type: "item"
+				}
+				{
+					id: "7BBFC702207BED7E"
+					item: "create_central_kitchen:honey_cake_slice"
+					type: "item"
+				}
+				{
+					id: "18FE6A4D71F9334E"
+					item: "create_central_kitchen:yucca_cake_slice"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6F9E1ED2AC0DDFB6"
+				title: "恭喜您完成“植物与机械时代的主线”"
+				type: "checkmark"
+			}]
+			title: "恭喜您完成“奥术与机械时代”的主线内容"
+			x: -5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["72FC4A6078D0709C"]
+			id: "5330580FD2B4808C"
+			subtitle: "此高炉非彼高炉"
+			tasks: [{
+				id: "6CE9799185C0E3D7"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D298F76F138ED9C"]
+			id: "372DAE4FAF381BA9"
+			rewards: [{
+				id: "428C6349D5A29003"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6780B71DFE74F5B2"
+					item: "immersiveengineering:stick_treated"
+					type: "item"
+				}
+				{
+					id: "08B2F8A97ECB67FD"
+					item: "immersiveengineering:treated_wood_horizontal"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5330580FD2B4808C"]
+			id: "67154A49F6FCAFC2"
+			rewards: [{
+				id: "2CCA5CB5B6369745"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "更加坚固的材料"
+			tasks: [{
+				id: "6BF741D67AEBEDE3"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0C71477726479138"]
+			id: "767C43581237C2EA"
+			tasks: [{
+				id: "0303785EEF8F0B3E"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6C48CB1291B79E9E"]
+			id: "406A0692B8488965"
+			rewards: [{
+				id: "4B1A05EC3C1E251F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "更漂亮，更高级"
+			tasks: [{
+				id: "2D9301E26394EE15"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["388228E15320A38E"]
+			id: "37A21053465D6FFF"
+			rewards: [{
+				id: "047B07C85B56180E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "70496B32CF212448"
+				item: "irons_spellbooks:evocation_rune"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67154A49F6FCAFC2"]
+			id: "5C9CBA65E0EE5566"
+			rewards: [{
+				id: "78A808C1E7168CD2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "机械动力(x) 机械臂动力(√)"
+			tasks: [{
+				id: "489BBEB7CEDF975E"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["133DCD899F30DB21"]
+			id: "15345685D55B1E9A"
+			rewards: [{
+				id: "7778FA6CAD6ADB7E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "构史传动"
+			tasks: [{
+				id: "12EE18B540F3B7DF"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6545368C3E154C49"]
+			id: "3EF3B83D7C7F152E"
+			rewards: [{
+				id: "2EA9DF6516A65CEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F8575E7E79C1BD3"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F2330CC10759C2D"]
+			id: "76BE844B010EA6BF"
+			rewards: [{
+				id: "67CC1AE678C0FAE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42286E70EB5422E2"
+				item: "thirst:sand_filter"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["67154A49F6FCAFC2"]
+			id: "3C4FC9FF7A955CE1"
+			tasks: [{
+				id: "4340B91A2274613D"
+				item: "thirstcanteen:military_bottle"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7AC6A42B30846BDB"]
+			id: "21D928B4A308ECBE"
+			rewards: [{
+				id: "64978192DD4D1C1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "13E5950B6FEF3BB3"
+					item: "storagedrawers:obsidian_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "3C32005649435D2A"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "2D1C08F4ED9A8BBC"
+					item: "storagedrawers:gold_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "28E57A4FF1F026DB"
+					item: "storagedrawers:diamond_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "2424DEC8913A68FA"
+					item: "storagedrawers:emerald_storage_upgrade"
+					type: "item"
+				}
+			]
+			title: "抽屉容量升级"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AC6A42B30846BDB"]
+			id: "0414103A03835310"
+			rewards: [{
+				id: "70B656E56F3EC536"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "把某些物体烘干，也会给你意想不到的惊喜"
+			tasks: [{
+				id: "2C41E2153FF1932B"
+				item: "integrateddynamics:drying_basin"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5C557CE5986B91FD"]
+			id: "735DAAE2A325B238"
+			rewards: [{
+				id: "75A19542459CD529"
+				item: "create:wrench"
+				type: "item"
+			}]
+			subtitle: "创哥理赔"
+			tasks: [{
+				id: "600FDA83F2127E67"
+				title: "重复领取扳手"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["578E754FC4D76A76"]
+			id: "35A0EEAA6F33D830"
+			rewards: [{
+				id: "08787FF1340FED39"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "并不为了保护眼睛"
+			tasks: [{
+				id: "5F10D0C31E3AF788"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["35A0EEAA6F33D830"]
+			id: "268E197975075EC1"
+			rewards: [{
+				id: "2FE1F69C5959A64C"
+				item: "create:goggles"
+				type: "item"
+			}]
+			subtitle: "创哥理赔"
+			tasks: [{
+				id: "37363661954B5013"
+				title: "重复领取工程师护目镜"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["15345685D55B1E9A"]
+			id: "7FBA5104B969ECF4"
+			rewards: [{
+				id: "4C05E2AAB8EA49DE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "让你在传送带上行动自如"
+			tasks: [{
+				id: "56D1E4B03C37FBD7"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "潜水靴"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["09E6129652A0A056"]
+			id: "0E608F0F4F9C28DE"
+			subtitle: "巨大的存储结构"
+			tasks: [{
+				id: "300F9F9ED6C567A5"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+	]
+	title: "第一章：奥术与机械时代"
+}

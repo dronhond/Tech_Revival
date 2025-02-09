@@ -1,0 +1,854 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "68C67371BE5F9534"
+	group: "6555AD457948208E"
+	icon: "botania:terra_plate"
+	id: "68C67371BE5F9534"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["53D71F1F0EA7632E"]
+			id: "7C7662C9F0337819"
+			rewards: [{
+				id: "6E35A791D032BC91"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "访问下界，取得这个白色的产物"
+			tasks: [{
+				id: "2AE3214652E8A396"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C7662C9F0337819"]
+			id: "275ACF0F198DCF95"
+			rewards: [{
+				id: "03F702EF9F1A21A7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "她很漂亮，对吧"
+			tasks: [
+				{
+					id: "49814F358784E96A"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "6062603C789840EE"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+			]
+			title: "玫瑰花的葬礼"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["275ACF0F198DCF95"]
+			id: "526F91C11DEF5792"
+			rewards: [{
+				id: "11765FF001E8195C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "并没有得到很精确的焊接，想要运行必须依靠魔力"
+			tasks: [{
+				id: "0F87FC94859FAD0A"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["526F91C11DEF5792"]
+			id: "6B4709DD4C2E2CC5"
+			rewards: [{
+				id: "25161F1254E78C33"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不仅仅是解放双手，也突破了限制"
+			tasks: [{
+				id: "3F813F8D1A81F690"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B4709DD4C2E2CC5"]
+			id: "69087A048E1391F8"
+			rewards: [{
+				id: "1415566149719C45"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "666,这个入开reach了"
+			tasks: [{
+				id: "6A2BAA6E8B1BA98A"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B4709DD4C2E2CC5"]
+			id: "0F1FB3960940CD27"
+			rewards: [{
+				id: "45F0170E598FD47F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "诶你怎么炸了"
+			tasks: [{
+				id: "0B6FC4732F3EF040"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B4709DD4C2E2CC5"]
+			id: "300DE5BFCBF49D87"
+			rewards: [{
+				id: "494B3FFBD16FE340"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "有些人做动力合成器就是为了它"
+			tasks: [{
+				id: "4A808C337CE9741D"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["300DE5BFCBF49D87"]
+			id: "6FCE2B1213438467"
+			rewards: [{
+				id: "4D19B32AF7788001"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "闪闪亮亮=v="
+			tasks: [{
+				id: "7FE28E8670CA1BC8"
+				item: "mekanism:dust_diamond"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6FCE2B1213438467"]
+			id: "7BD9A0C5EAB505AB"
+			subtitle: "能挖动如此巨量的岩石，没有坚固的钻头很不合理对吧？"
+			tasks: [{
+				id: "7B270E8DAB7BA332"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["767C43581237C2EA"]
+			id: "3FB91940F075CC38"
+			rewards: [{
+				id: "29AAD4943743AD24"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "圣光将赐予我胜利！"
+			tasks: [{
+				id: "4B2ABFA539EA5776"
+				item: "irons_spellbooks:holy_rune"
+				type: "item"
+			}]
+			title: "神圣符文"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3FB91940F075CC38"
+				"6B4709DD4C2E2CC5"
+			]
+			id: "396A2CAE2F8D4A89"
+			tasks: [{
+				id: "494028D1401902A4"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["300DE5BFCBF49D87"]
+			description: ["因为作者在玩群峦：重生的时候发现了逆天的2.5倍矿物处理，遂作此，曰：核心科技"]
+			id: "6E49C4F7102683EA"
+			rewards: [{
+				id: "32C074EC9B9DFA91"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "核 心 科 技"
+			tasks: [{
+				id: "5C55FE930C79D2FD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:crushed_raw_materials"
+					}
+				}
+				title: "Any #create:crushed_raw_materials"
+				type: "item"
+			}]
+			title: "高效(搞笑)的矿物处理"
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6B4709DD4C2E2CC5"
+				"43E7EDC801AE7D05"
+				"4C68AF23B97F665C"
+			]
+			id: "16BE32B0D984FE29"
+			rewards: [{
+				id: "25F8DD0BA96F75F9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "无尽的符文"
+			tasks: [
+				{
+					id: "2CF7236E29FFBF98"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					id: "4FF3B74987A64B67"
+					item: "botania:spark"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["53D71F1F0EA7632E"]
+			id: "43E7EDC801AE7D05"
+			rewards: [{
+				id: "3FDFD220F1187D85"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "别看了，这些元素不会反应的"
+			tasks: [
+				{
+					id: "1DD21349E2DD60EF"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "58740AD5E8468FA6"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "77A31A039A068C1E"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "0C3DC1A0DEB07362"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+			]
+			title: "元素符文"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["767C43581237C2EA"]
+			id: "4C68AF23B97F665C"
+			rewards: [{
+				id: "0B58E753A65C75DC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "圣光背弃了我！"
+			tasks: [{
+				id: "161C4D3AE4B4B014"
+				item: "irons_spellbooks:ender_rune"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B4709DD4C2E2CC5"]
+			id: "34D8D2532BF4843C"
+			rewards: [{
+				id: "6A204DFE2AC636CD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不一定那么有逻辑"
+			tasks: [{
+				id: "2048F37527E67209"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34D8D2532BF4843C"]
+			id: "57B41B7F8E8B4C84"
+			rewards: [{
+				id: "37517DFB3D2CC50C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "使用变量卡，轻松自由地管理你的物流"
+			tasks: [
+				{
+					id: "17B255E4D5CDC7A9"
+					item: "integrateddynamics:variable"
+					type: "item"
+				}
+				{
+					id: "0235F076E9C95743"
+					item: "integrateddynamics:variable_transformer_input"
+					type: "item"
+				}
+				{
+					id: "6F0F755C1A8D30E2"
+					item: "integrateddynamics:variable_transformer_output"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["16BE32B0D984FE29"]
+			id: "02A27210FDF33442"
+			rewards: [{
+				id: "20E223F3A74C95CE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "绿油油的"
+			tasks: [{
+				id: "05D4778612ECF131"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["354D3425F716E9A1"]
+			id: "280F77D90848337D"
+			rewards: [{
+				id: "745498BED90C05BA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "其实只是换了个颜色（）"
+			tasks: [{
+				id: "6F9B6075D3AB5D10"
+				item: "byg:subzero_crystal_shard"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"280F77D90848337D"
+				"16BE32B0D984FE29"
+			]
+			id: "00F2D3670C5CA84B"
+			rewards: [{
+				id: "7568FE93EA4E87C1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "别忘了做两个"
+			tasks: [{
+				id: "3C3E01F6364B9DD3"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16BE32B0D984FE29"
+				"02A27210FDF33442"
+				"00F2D3670C5CA84B"
+				"0F54AA5A3A16320A"
+			]
+			id: "5F260532473A6ABD"
+			rewards: [{
+				id: "28B76D90FEED1AC5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "保护大籽然"
+			tasks: [{
+				id: "0EF0F986AD551B3F"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5330580FD2B4808C"]
+			id: "18D03399425B625D"
+			tasks: [{
+				id: "55C707881F0D044A"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18D03399425B625D"]
+			id: "6305B89D2D4A949D"
+			tasks: [{
+				id: "5548880CDE90A8A6"
+				item: "irons_spellbooks:upgrade_orb"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6305B89D2D4A949D"
+				"0C3AF4E73D1E067B"
+			]
+			id: "0F54AA5A3A16320A"
+			rewards: [{
+				id: "7E472670A9370C25"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "自然的力量"
+			tasks: [{
+				id: "1D2ECEB1F9BDDD12"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C71477726479138"]
+			id: "0C3AF4E73D1E067B"
+			tasks: [{
+				id: "30E352ECE4401FFE"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02A27210FDF33442"]
+			description: ["请注意，开启一次精灵门需要的魔力是巨量的，但维持开启的魔力是少量的，所以请不要反复开启精灵门"]
+			id: "37390913D7A63D64"
+			rewards: [{
+				id: "0ECFFDFE8BDB2764"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "请按照植物魔法辞典的要求搭建精灵门"
+			tasks: [
+				{
+					id: "4EE813E6BAFAEBBF"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					id: "4CD997F897AB5321"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:livingwood_logs"
+						}
+					}
+					title: "Any #botania:livingwood_logs"
+					type: "item"
+				}
+			]
+			title: "精灵门"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"5F260532473A6ABD"
+				"37390913D7A63D64"
+			]
+			id: "29FD9E94F6097BEC"
+			rewards: [{
+				id: "67AD2B408D0F8D03"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "将你的植物魔法辞典丢入精灵门来升级你的植物魔法辞典"
+			tasks: [{
+				id: "39123C3D45765D0A"
+				item: {
+					Count: 1b
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			title: "升级你的植物魔法词典"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"37390913D7A63D64"
+				"01FF175F814C96E0"
+			]
+			id: "64AA7DC656E89E5F"
+			rewards: [{
+				id: "54C80EAD8967B6D9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "制作钻石背包的工艺，只有精灵掌握"
+			tasks: [{
+				id: "5F04E597604A18F8"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37390913D7A63D64"]
+			id: "01FF175F814C96E0"
+			rewards: [{
+				id: "3AAE524E5B2099C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5B2633EF40CA94E4"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FB91940F075CC38"]
+			id: "56CE36E6DE7E488B"
+			rewards: [{
+				id: "738AAE7DBDCB1530"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "神圣的力量"
+			tasks: [{
+				id: "034585CE71875FE5"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["37390913D7A63D64"]
+			id: "00EC666341C880C4"
+			rewards: [{
+				id: "113F4A653019BB0C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "猛男粉"
+			tasks: [{
+				id: "71CDD7FBC66F9930"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["56CE36E6DE7E488B"]
+			id: "4C270B5CFFD9684C"
+			rewards: [{
+				id: "43A70046A81C89F1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不会降低焓变"
+			tasks: [{
+				id: "731BD666B23ADA5D"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["00EC666341C880C4"]
+			id: "6BB0419BA92EAA77"
+			rewards: [{
+				id: "6CDB7E320FCCEBC0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "梦开始的地方"
+			tasks: [{
+				id: "6C8C16416FC59CF2"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6BB0419BA92EAA77"]
+			id: "5B86B3A1B09098C6"
+			rewards: [{
+				id: "5091296A12AC21D8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "需要蓝图才能工作"
+			tasks: [{
+				id: "6BA459BC9E138A42"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6BB0419BA92EAA77"]
+			id: "20A142727EC75BCB"
+			rewards: [{
+				id: "49B4693D44AD62A4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "短时间内用不上"
+			tasks: [{
+				id: "383449D5CCFE9E84"
+				item: "immersiveengineering:circuit_table"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5B86B3A1B09098C6"]
+			id: "3F7B3D3B47E93ADF"
+			rewards: [{
+				id: "3314A3661D274FEE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "更少的材料损耗,更精密的配方"
+			tasks: [{
+				id: "5DF26012B293ECD1"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["00EC666341C880C4"]
+			id: "3DFF84F15CB8C910"
+			rewards: [{
+				id: "0EEE59A9A11E9296"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "你是工业先锋！"
+			tasks: [
+				{
+					id: "314DB0156FFB9E72"
+					item: "industrialforegoing:machine_frame_pity"
+					type: "item"
+				}
+				{
+					id: "754C7832E4828766"
+					item: "createindustry:heavy_plate"
+					type: "item"
+				}
+			]
+			title: "发电器之前"
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3DFF84F15CB8C910"
+				"3F7B3D3B47E93ADF"
+			]
+			id: "0994333129404B25"
+			tasks: [{
+				id: "680F3BFB29156D8B"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "7E3026463CAD14AD"
+			rewards: [
+				{
+					id: "29B09D0D279FDCB6"
+					item: "create_central_kitchen:aloe_cake_slice"
+					type: "item"
+				}
+				{
+					id: "7627FF92E270D070"
+					item: "create_central_kitchen:passionfruit_cake_slice"
+					type: "item"
+				}
+				{
+					id: "705C6B31F8E74D87"
+					item: "create_central_kitchen:pumpkin_cake_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AF04AB7E7D32EF9"
+				title: "恭喜您完成“泰拉与蒸汽时代”的主线内容"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"01FF175F814C96E0"
+				"00EC666341C880C4"
+			]
+			id: "1DFE437828D033F1"
+			tasks: [{
+				id: "6A6F4CAB1A7558B0"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["526F91C11DEF5792"]
+			id: "70C1E28067336119"
+			rewards: [{
+				id: "524072F938640708"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "有些冗余"
+			tasks: [{
+				id: "06A224FD93111827"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["526F91C11DEF5792"]
+			id: "198AE1E8D15E938D"
+			rewards: [{
+				id: "08A3F0851354DADB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "中分头"
+			tasks: [{
+				id: "6B49781F074132C4"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6FCE2B1213438467"]
+			id: "575ED3FC405E59E1"
+			rewards: [{
+				id: "0F0BAD7B4CD5FACC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "只是覆了一层钻石"
+			tasks: [{
+				id: "06A190B57A73F077"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+	]
+	title: "第二章：泰拉与蒸汽时代"
+}

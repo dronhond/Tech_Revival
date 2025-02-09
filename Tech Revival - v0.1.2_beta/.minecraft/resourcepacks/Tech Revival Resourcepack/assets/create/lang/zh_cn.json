@@ -1,0 +1,17 @@
+{
+    "item.create.crushed_raw_iron":"粉碎铁矿石",
+    "item.create.crushed_raw_gold":"粉碎金矿石",
+    "item.create.crushed_raw_copper":"粉碎铜矿石",
+    "item.create.crushed_raw_zinc":"粉碎锌矿石",
+    "item.create.crushed_raw_osmium":"粉碎锇矿石",
+    "item.create.crushed_raw_silver":"粉碎银矿石",
+    "item.create.crushed_raw_tin":"粉碎锡矿石",
+    "item.create.crushed_raw_lead":"粉碎铅矿石",
+    "item.create.crushed_raw_aluminum":"粉碎铝矿石",
+    "item.create.crushed_raw_uranium":"粉碎铀矿石",
+    "item.create.crushed_raw_nickel":"粉碎镍矿石",
+    "item.create.copper_diving_helmet":"铜潜水头盔",
+    "item.create.netherite_diving_helmet":"下界合金潜水头盔",
+    "item.create.copper_diving_boots":"铜潜水靴",
+    "item.create.netherite_diving_boots":"下界合金潜水靴"
+}

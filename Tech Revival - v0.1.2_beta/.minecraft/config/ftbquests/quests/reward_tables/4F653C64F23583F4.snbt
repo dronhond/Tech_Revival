@@ -1,0 +1,1028 @@
+{
+	id: "4F653C64F23583F4"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:antimatter"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:brine"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:chlorine"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:ethene"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:fissile_fuel"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:hydrofluoric_acid"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:hydrogen"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:hydrogen_chloride"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:lithium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:nuclear_waste"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:osmium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:oxygen"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:plutonium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:polonium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:sodium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:spent_nuclear_waste"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:steam"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:sulfur_dioxide"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:sulfur_trioxide"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:sulfuric_acid"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:superheated_sodium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:uranium_hexafluoride"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:uranium_oxide"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanism:water_vapor"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanismgenerators:deuterium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanismgenerators:fusion_fuel"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "mekanismgenerators:tritium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "techrevival:dt_fuel"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								gasName: "techrevival:helium_3"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								infuseTypeName: "mekanism:bio"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								infuseTypeName: "mekanism:carbon"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								infuseTypeName: "mekanism:diamond"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								infuseTypeName: "mekanism:fungi"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								infuseTypeName: "mekanism:gold"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								infuseTypeName: "mekanism:redstone"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								infuseTypeName: "mekanism:refined_obsidian"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								infuseTypeName: "mekanism:tin"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:aqua"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:black"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:blue"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:brown"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:cyan"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:dark_red"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:gray"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:white"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						PigmentTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								pigmentName: "mekanism:yellow"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:clean_copper"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:clean_gold"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:clean_iron"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:clean_lead"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:clean_osmium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:clean_tin"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:clean_uranium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:dirty_copper"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:dirty_gold"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:dirty_iron"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:dirty_lead"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:dirty_osmium"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:dirty_tin"
+							}
+						}]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:creative_chemical_tank"
+				tag: {
+					mekData: {
+						SlurryTanks: [{
+							Tank: 0b
+							stored: {
+								amount: 9223372036854775807L
+								slurryName: "mekanism:dirty_uranium"
+							}
+						}]
+					}
+				}
+			}
+		}
+	]
+	title: "任意创造气体储罐"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "techrevival:item/base_block",
+  "textures": {
+    "north": "techrevival:item/incomplete_dissolution_chamber/dissolution_chamber_front"
+  }
+}

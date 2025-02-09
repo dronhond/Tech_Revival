@@ -1,0 +1,739 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "74AB6C226492C6BE"
+	group: "6555AD457948208E"
+	icon: "minecraft:cobblestone"
+	id: "74AB6C226492C6BE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["不论你是谁，圆石和木头都是必不可少的开局，就如同食物一样重要"]
+			id: "516FFC9E511EC6EC"
+			rewards: [{
+				id: "14DDFD7A5725A20C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4C2A8C14A94F6FD9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "byg:all/logs"
+						}
+					}
+					title: "Any #byg:all/logs"
+					type: "item"
+				}
+				{
+					id: "032AAFB9C57D7A9C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					title: "Any #forge:cobblestone"
+					type: "item"
+				}
+			]
+			title: "最初的部分"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F68DB9EAD69D78D"]
+			id: "10F2E5CDA7BB75F8"
+			rewards: [{
+				id: "059224DC5F59AA7F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "有了石镐，挖铁就不是难事了不是？"
+			tasks: [{
+				id: "7AB2E1B0FADA0FD9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials/iron"
+					}
+				}
+				title: "Any #forge:raw_materials/iron"
+				type: "item"
+			}]
+			title: "粗铁"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["516FFC9E511EC6EC"]
+			dependency_requirement: "one_completed"
+			id: "3F68DB9EAD69D78D"
+			rewards: [{
+				id: "0A25736B6294CA58"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "有人说，minecraft中的mine也指矿物，现在来看不无道理"
+			tasks: [{
+				id: "7A6F9F74F566DA6F"
+				item: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "1617A2C4D3164108"
+			rewards: [{
+				id: "7D5D93BD7D15B7EE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: " 什么？你问我为什么粗铁后面不是铁锭？你要不要看看你做不做得了铁锭……好吧，在这个维度里，你只能使用高炉烧炼矿物，而高炉的制作需要耐火粘土"
+			tasks: [
+				{
+					id: "103FD698F4ACABBF"
+					item: "createindustry:fireclay"
+					type: "item"
+				}
+				{
+					id: "237EC7311B8B00C3"
+					item: "createindustry:fireclay_ball"
+					type: "item"
+				}
+				{
+					id: "07725D44DC498730"
+					item: "createindustry:fireproof_bricks"
+					type: "item"
+				}
+				{
+					id: "48618A82607E1395"
+					item: "createindustry:fireproof_brick"
+					type: "item"
+				}
+			]
+			title: "耐火材料"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1617A2C4D3164108"
+				"10F2E5CDA7BB75F8"
+			]
+			id: "42A8956FFB337A2C"
+			rewards: [{
+				id: "67522BC42D8D9CD9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这是你走向文明的开端，技术复兴真正的起点。但请注意，烧炼一块铁的时间远长于你的想象"
+			tasks: [{
+				id: "4D93F86160279668"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42A8956FFB337A2C"]
+			id: "388D4CA5F79F8315"
+			rewards: [{
+				id: "4773B80E2633864A"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "你人生的第一块铁"
+			tasks: [{
+				id: "692DB722B0540C13"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "67550976BB641734"
+			rewards: [{
+				id: "2BBF4A3E9736530D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "想要做一张床？可没那么简单，毕竟这能设置重生点的伟大玩意怎么会这么容易做出来呢？"
+			tasks: [
+				{
+					id: "3D87DA3FFEBF8298"
+					item: "supplementaries:feather_block"
+					type: "item"
+				}
+				{
+					id: "4E131B6D781721A1"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+				{
+					id: "10B5B1A482A8F927"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			title: "床的材料"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67550976BB641734"]
+			id: "6BCE76E83027BE59"
+			rewards: [{
+				id: "0F51CCB288570D3D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "恭喜你，现在拥有了一个舒适柔软的床:D"
+			tasks: [{
+				id: "58B5DB2918D47A6D"
+				item: "minecraft:white_bed"
+				type: "item"
+			}]
+			title: "制作床"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "7DF32CB525F739C9"
+			rewards: [{
+				id: "1784BD28ACB73784"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "相信你在探索的过程中也遇到了这些神秘的花朵或者蘑菇，请记住他们蕴含着不小的魔力，善用他们"
+			tasks: [
+				{
+					id: "4C3F357ED77C80AA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:mystical_flowers"
+						}
+					}
+					title: "Any #botania:mystical_flowers"
+					type: "item"
+				}
+				{
+					id: "7FDB26609EC0F2A2"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:petals"
+						}
+					}
+					title: "Any #botania:petals"
+					type: "item"
+				}
+			]
+			title: "神秘植物"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DF32CB525F739C9"]
+			id: "2C6AB1AFADF65D35"
+			subtitle: "制作一个采花袋，让背包不至于被填满！"
+			tasks: [{
+				id: "6DA0D47CF5B98C2E"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7DF32CB525F739C9"]
+			icon: "botania:apothecary_default"
+			id: "6B509CEF5CF607EC"
+			rewards: [{
+				id: "2C537394245ECF87"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "花药台之于植物魔法宛如工作台之于MC，你说要不要做呢？"
+			tasks: [{
+				id: "0455B10302CC16AF"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B509CEF5CF607EC"]
+			id: "2E93DA6FC6FFA9D9"
+			rewards: [{
+				id: "67F62C8A975AA4A3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "无需魔力的催化剂，降低反应活化能（bushi"
+			tasks: [{
+				id: "0B6F72FF80CD943B"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2E93DA6FC6FFA9D9"]
+			id: "7DFA1BBD45309096"
+			tasks: [
+				{
+					id: "193AC10D58ABF5D3"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "6BDD932CB8A1DE55"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			title: "活化的方块"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DFA1BBD45309096"]
+			id: "074B86277C9F93EB"
+			rewards: [{
+				id: "3208C529824443E3"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "至此，你终于做出了第一台魔力机器，即将开始对魔力的驾驭之旅"
+			tasks: [{
+				id: "6291B2D41918949C"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7DFA1BBD45309096"]
+			id: "67F2EDA39D56C7F1"
+			rewards: [{
+				id: "228BF1CC345208BF"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "魔力池，年轻人的第一款魔力容器"
+			tasks: [{
+				id: "6A6C21DF58B4037F"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			id: "7984EE292386E0A7"
+			rewards: [{
+				id: "2CCE25AA0EA750EE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "要想获得草杆，一把小刀是必不可少的，但是现阶段你可能只能制作燧石刀了"
+			tasks: [
+				{
+					id: "49F9669218097442"
+					item: {
+						Count: 1b
+						id: "farmersdelight:flint_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EA7248C5C8808BB"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "4BB07FFAFB7B5DC0"
+			rewards: [{
+				id: "5BC3D8AAB5882455"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "最基础的存储方式"
+			tasks: [{
+				id: "6B31D75F1BE6BEE0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			title: "箱式存储"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4BB07FFAFB7B5DC0"]
+			id: "741C035CB1C8C2F4"
+			rewards: [{
+				id: "6B0E1D0799CBDEC3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "抽屉，怎么说也算是集成存储了"
+			tasks: [{
+				id: "00C037FA6416AAEA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "抽屉存储"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4BB07FFAFB7B5DC0"]
+			id: "56530C303FA0FED0"
+			rewards: [{
+				id: "5BC170E3CA0A99DD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "可以直接从开口处接取物品"
+			tasks: [{
+				id: "4794557A5B1C08A2"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3F68DB9EAD69D78D"]
+			id: "05BEE0CE29C05343"
+			rewards: [{
+				id: "2630AC92583F9FA6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "石镐就能挖"
+			tasks: [{
+				id: "6DFBBD5DF4D8ECE1"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["05BEE0CE29C05343"]
+			id: "21A68CE2DFE5FC8A"
+			rewards: [{
+				id: "517A16177C049F49"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "流体力学鼻祖"
+			tasks: [{
+				id: "753ADE1A51937D6F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "0B4C95C7F3843651"
+			subtitle: "你可以在世界各处的遗迹中找到它们，当然你也可以用小刀加工神秘花瓣来获得它"
+			tasks: [{
+				id: "0067F257B72BEE01"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "31B2177FD9B1E031"
+			rewards: [{
+				id: "2C632F45CC239091"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "好吧，浆果很好吃"
+			tasks: [{
+				id: "019419888504190B"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "7F557AA5AC3D5E0B"
+			rewards: [{
+				id: "4E74445CB4DA6669"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "富得流油"
+			tasks: [{
+				id: "4CA3A97CF55FB666"
+				item: "integrateddynamics:menril_log_filled"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "19B1AC6B5D5092B2"
+			rewards: [{
+				id: "022B70645E7A6134"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "有用且自然的韧性材料"
+			tasks: [{
+				id: "1C2CED73472CCB44"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19B1AC6B5D5092B2"]
+			id: "6F87D9C71A91D14F"
+			rewards: [{
+				id: "1867D9AB66A5C1B6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "你现在像个西部牛仔"
+			tasks: [{
+				id: "6B29B4804552555C"
+				item: "thirstcanteen:leather_canteen"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F557AA5AC3D5E0B"]
+			id: "0A30C96AC6222E75"
+			rewards: [{
+				id: "37B7856E177E330F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "跨越维度的力量"
+			tasks: [
+				{
+					id: "3F9AAF260F027525"
+					item: "integrateddynamics:crystalized_menril_block"
+					type: "item"
+				}
+				{
+					id: "031657312012F51F"
+					item: "integrateddynamics:crystalized_menril_chunk"
+					type: "item"
+				}
+			]
+			title: "门瑞欧晶体材料"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "61EED8F68DBA38DF"
+			rewards: [{
+				id: "23FCB2A60EFE6BC6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "将一个树苗和书结合来制成植物魔法词典"
+			tasks: [{
+				id: "3F0EED51FD185867"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["741C035CB1C8C2F4"]
+			id: "73E87FBAE26FEFDF"
+			rewards: [{
+				id: "4F79F3258818A0AD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "疑似有些超模了"
+			tasks: [
+				{
+					id: "704779C02AD83BC4"
+					item: "storagedrawers:compacting_drawers_3"
+					type: "item"
+				}
+				{
+					id: "01177E4CFBFFBAFE"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+			]
+			title: "进阶抽屉存储"
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			id: "059DF20D136D0207"
+			rewards: [{
+				id: "4AB7719C653F7B46"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不能抽！"
+			tasks: [
+				{
+					id: "3AC90E7A314C4018"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+				{
+					id: "1F4F3D7D1ACBED7A"
+					item: "immersiveengineering:hemp_fiber"
+					type: "item"
+				}
+			]
+			title: "工业大麻"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "67F23F17B401A774"
+			rewards: [{
+				id: "3B60C6E42284621C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "我们不建议您前期踏足暮色，因为与暮色相关的内容在第三章才会开始出现"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "10D2C2A4968AB2C8"
+				type: "dimension"
+			}]
+			title: "踏足暮色"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "6AFF9630980BFD88"
+			rewards: [{
+				id: "6FA0115D35B55F38"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "还没开始就结束了？"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "55BFD84B908F626D"
+				type: "dimension"
+			}]
+			title: "踏足终末"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "74F36B27AA491934"
+			rewards: [{
+				id: "257E6584A2D724CD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "与主线无关的灾变boss"
+			tasks: [{
+				id: "22B4BC25D58B339E"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			id: "7FC8A6E072EAC1A7"
+			rewards: [{
+				id: "65787650191225C2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "与主线无关的灾变boss"
+			tasks: [{
+				id: "73E502E66E944FD0"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: "ftbquests:book"
+			id: "799206397004262A"
+			rewards: [{
+				id: "46079AB9613AA86A"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12F9D89E53C99BFC"
+				type: "checkmark"
+			}]
+			title: "重复领取任务书"
+			x: -2.5d
+			y: 8.0d
+		}
+	]
+	title: "序章：探索时代"
+}

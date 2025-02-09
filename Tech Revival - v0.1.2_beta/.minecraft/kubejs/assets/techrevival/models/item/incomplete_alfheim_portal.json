@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "techrevival:item/incomplete_alfheim_portal"
+  }
+}

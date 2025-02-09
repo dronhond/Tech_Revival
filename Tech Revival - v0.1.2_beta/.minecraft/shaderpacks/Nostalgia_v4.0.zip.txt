@@ -1,0 +1,11 @@
+#Sun Feb 09 19:43:26 CST 2025
+fogMistAdvanced=true
+vignetteExponent=0.50
+bloomEnabled=false
+vignetteStart=0.00
+DoFChromaDispersion=false
+exposureComplexEnabled=false
+imageSharpenEnabled=false
+vignetteIntensity=0.00
+vignetteEnabled=false
+vignetteEnd=0.00

@@ -1,0 +1,1332 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5A8F52EC95B96647"
+	group: "6555AD457948208E"
+	icon: "ad_astra:desh_plate"
+	id: "5A8F52EC95B96647"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "3F2C3C61720A44E6"
+			rewards: [{
+				id: "35599E3CC5D813FA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "最佳制冷剂（击杀雪怪首领掉落）"
+			tasks: [{
+				id: "643D5689C8835FB1"
+				item: "twilightforest:ice_bomb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "6A4DBBDDBFDC31D5"
+			rewards: [{
+				id: "35123015AC6B1FC8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "巨大化的力量！"
+			tasks: [
+				{
+					id: "76A4424708CB686A"
+					item: {
+						Count: 1b
+						id: "twilightforest:giant_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64D1D6903FF701DD"
+					item: "twilightforest:giant_obsidian"
+					type: "item"
+				}
+			]
+			title: "巨大化"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A4DBBDDBFDC31D5"
+				"1AA9743880BA920E"
+			]
+			id: "22C536320FD29493"
+			rewards: [{
+				id: "0B89592E889F1E68"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "虚空挖矿！"
+			tasks: [{
+				id: "282643279EB34B87"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "1AA9743880BA920E"
+			rewards: [{
+				id: "7165D61F8964D3BF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不值得的交易"
+			tasks: [
+				{
+					id: "0C6E29D19E8F3CC8"
+					item: "botania:orechid"
+					type: "item"
+				}
+				{
+					id: "02D4C20995B86820"
+					item: "botania:orechid_ignem"
+					type: "item"
+				}
+			]
+			title: "重金属污染"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "6CD1D9DD662E8A19"
+			rewards: [{
+				id: "458479B55AC43500"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "汹涌着力量"
+			tasks: [{
+				id: "05117D107159E021"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CD1D9DD662E8A19"]
+			id: "2E7FA44CEA55E701"
+			tasks: [{
+				id: "4A7CFE2F16751BB1"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CD1D9DD662E8A19"]
+			id: "721A0131F234A52A"
+			rewards: [{
+				id: "59D0899D426DE660"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "终极存储"
+			tasks: [{
+				id: "5591FE7CC57CBFFC"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["16862CBAD76D6FA2"]
+			id: "5256E786B4F3D46C"
+			rewards: [{
+				id: "50D2A2F029F8489F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "高密度素材"
+			tasks: [
+				{
+					id: "58CC89EF19E4D6BC"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					id: "719B3405B87A467C"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+			]
+			title: "火箭配件"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5256E786B4F3D46C"
+				"3362D51615CFDB9A"
+				"0CE695EEAD5B57E0"
+			]
+			id: "73ABBF55D022FDDE"
+			rewards: [{
+				id: "63991C357775B60C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "芜湖~起飞！（记得多带燃料）"
+			tasks: [{
+				id: "7CC53615F0EA572B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CD1D9DD662E8A19"]
+			id: "0CE695EEAD5B57E0"
+			rewards: [{
+				id: "3D146697775E4409"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "凋灵催化"
+			tasks: [{
+				id: "08B9B76F4A76D53F"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2C3C61720A44E6"]
+			id: "3362D51615CFDB9A"
+			rewards: [{
+				id: "25CDACB932D41C2A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "普隆普隆"
+			tasks: [{
+				id: "25430FDDD03C0A92"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "5B35BAFD78A640E5"
+			rewards: [{
+				id: "1D7B8A01BDE990B1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "压榨"
+			tasks: [{
+				id: "210981D90980FB49"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B35BAFD78A640E5"]
+			id: "4225143E0A0F415A"
+			rewards: [{
+				id: "107E0FD30D976667"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "非传统提炼"
+			tasks: [{
+				id: "5ABBCB12AA8AB316"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "617A624F9F854E86"
+			tasks: [{
+				id: "617FE19CC8C7A557"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["617A624F9F854E86"]
+			id: "11976FDE8CB62FAC"
+			rewards: [{
+				id: "4EB0A139131FD25B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "比想象的重"
+			tasks: [
+				{
+					id: "0619605E3B9F11A7"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F5F780BD986BEC0"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "107A783AA157F70E"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DD66B984A6E7512"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "航天服"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "00DCED7C20B11C3F"
+			rewards: [{
+				id: "3DF6A2F592BDA613"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "请注意！氧气与mek不通用！"
+			tasks: [
+				{
+					id: "1B38CAAE2E38492B"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+				{
+					id: "7BE1F9E3AFAE2A95"
+					item: "ad_astra:oxygen_distributor"
+					type: "item"
+				}
+			]
+			title: "有氧运动"
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4225143E0A0F415A"
+				"73ABBF55D022FDDE"
+				"42D28C84C029A9E3"
+				"11976FDE8CB62FAC"
+				"00DCED7C20B11C3F"
+			]
+			id: "02AEEF86ECF96739"
+			rewards: [{
+				id: "2E3D52C7D27A251B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "你的一大步"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "7DFB34EB68C6B229"
+				type: "dimension"
+			}]
+			title: "月球"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "42D28C84C029A9E3"
+			rewards: [{
+				id: "74886975898BB7A0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "弹射起步"
+			tasks: [{
+				id: "30DFD971B2143F66"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02AEEF86ECF96739"]
+			id: "77B3891C9B67340A"
+			rewards: [{
+				id: "782D666AAB6A9D06"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "珍贵样本"
+			tasks: [
+				{
+					id: "41619BC6C9F1D19C"
+					item: "ad_astra:moon_sand"
+					type: "item"
+				}
+				{
+					id: "458FC22B4B2BD317"
+					item: "ad_astra:cheese"
+					type: "item"
+				}
+				{
+					id: "0802B3A5B5495011"
+					item: "ad_astra:desh_plate"
+					type: "item"
+				}
+			]
+			title: "月球材料"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77B3891C9B67340A"]
+			id: "766DD90E5CAE859C"
+			rewards: [{
+				id: "78B458B1E801BEA0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "轨道打击"
+			tasks: [{
+				dimension: "ad_astra:earth_orbit"
+				id: "7E3FCB755131066C"
+				type: "dimension"
+			}]
+			title: "空间站"
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "4ECC844589C6ED3F"
+			rewards: [{
+				id: "38C8E6EF9F59D728"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "驾驭火焰！"
+			tasks: [{
+				id: "0818DB00A32CC5D8"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "2D6C9531C8A40E08"
+			tasks: [{
+				id: "328F60C9C0104B7B"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "0816FEE7AC7C3C5C"
+			tasks: [{
+				id: "4F2EBE2E7FD7917B"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "4D4CA32774A222BC"
+			rewards: [{
+				id: "027BECE8BBCCDB1D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "怎么掰下来的？"
+			tasks: [{
+				id: "57F3B129D3949394"
+				item: "cataclysm:monstrous_horn"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4D4CA32774A222BC"
+				"4ECC844589C6ED3F"
+			]
+			id: "47D6A6EFAB379986"
+			rewards: [{
+				id: "2870FC663E91AF5E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "理论最帅"
+			tasks: [
+				{
+					id: "70DDC4D98A1A3219"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64DC6F10D766A9A7"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_elytra_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17D8ABB41DEC608F"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05C3EC7A218E36E7"
+					item: {
+						Count: 1b
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3F2C3C61720A44E6"]
+			id: "5EC93D1967568174"
+			rewards: [{
+				id: "0781C5D034DE9613"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "毛茸茸的"
+			tasks: [{
+				id: "1E7785117AC5A31E"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["01A0090F95E6EF4A"]
+			id: "51EF7F7EECD90430"
+			rewards: [{
+				id: "40ACBA1405EF2F6A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "1/2的消耗"
+			tasks: [{
+				id: "3D31673165C82DF8"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77B3891C9B67340A"]
+			id: "3C5AAE8E974A0736"
+			rewards: [{
+				id: "097732FBF209C1BC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不如飞机（月球怎么飞飞机？）"
+			tasks: [{
+				id: "00E39C7AED09FE24"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60973942E0C01F6D"]
+			id: "351522A5E48D40C8"
+			rewards: [{
+				id: "02ACF04F3327F20E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "This is Elon Musk"
+			tasks: [{
+				id: "1659B9D60FB7216B"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"77B3891C9B67340A"
+				"4ECC844589C6ED3F"
+			]
+			id: "60973942E0C01F6D"
+			rewards: [{
+				id: "3E954C42DE12DA4E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "似曾相识"
+			tasks: [
+				{
+					id: "24FD0B5288CEF152"
+					item: "ad_astra:desh_engine"
+					type: "item"
+				}
+				{
+					id: "486B7F5CAE90F9F4"
+					item: "ad_astra:desh_tank"
+					type: "item"
+				}
+			]
+			title: "戴斯材料"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["351522A5E48D40C8"]
+			id: "6C9ECA10355842AC"
+			rewards: [{
+				id: "336F0C0A2E0A0628"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "地球的姊妹星"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "6A6364DE21B7AA1C"
+				type: "dimension"
+			}]
+			title: "火星"
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4ECC844589C6ED3F"]
+			id: "120353DE03F7ECEE"
+			rewards: [{
+				id: "6C4DC6C1E84D2323"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "华而不实"
+			tasks: [
+				{
+					id: "71C3D3302894529D"
+					item: "cataclysm:the_incinerator"
+					type: "item"
+				}
+				{
+					id: "6F89C4320B7E342A"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+			]
+			title: "炎魔武器"
+			x: 12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["351522A5E48D40C8"]
+			id: "01A0090F95E6EF4A"
+			rewards: [{
+				id: "50485C2595854C23"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "火星迫降"
+			tasks: [
+				{
+					id: "1985712AEBD90F82"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+				{
+					id: "6D94F535E7B8A230"
+					item: "ad_astra:mars_sand"
+					type: "item"
+				}
+				{
+					id: "77B7BEAD4596AF5F"
+					item: "ad_astra:ice_shard"
+					type: "item"
+				}
+			]
+			title: "火星材料"
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"01A0090F95E6EF4A"
+				"5E99EE0F3EDF3F4E"
+			]
+			id: "22EAE21B80251233"
+			rewards: [{
+				id: "2518B4DAE9BDD132"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "无线输送"
+			tasks: [{
+				id: "7247B6E826417F0B"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22EAE21B80251233"]
+			id: "135182DDA18FC2BC"
+			rewards: [{
+				id: "3693C18EC6736D12"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "聚变反应堆的好伴侣"
+			tasks: [
+				{
+					id: "3AC4BF7DAB938017"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "2D51EC1B2F8C9C49"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "2C2AACCB45D3CFA8"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+			]
+			title: "通量网络"
+			x: 21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "5E99EE0F3EDF3F4E"
+			rewards: [{
+				id: "78C7338D6E12B072"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "还是太科学了"
+			tasks: [{
+				id: "3F47568F0CD1716D"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "1DB53007938D5313"
+			tasks: [{
+				id: "18FF6EA15D03D207"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1DB53007938D5313"]
+			id: "676DF92040F0C06F"
+			rewards: [{
+				id: "540388C0043EB301"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "潜影贝被打死前的幻想罢了"
+			tasks: [
+				{
+					id: "24F5FD2D5FBD68E4"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+				{
+					id: "23C74A2A34912906"
+					item: "cataclysm:void_stone"
+					type: "item"
+				}
+			]
+			title: "来自虚空"
+			x: 19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"01A0090F95E6EF4A"
+				"676DF92040F0C06F"
+			]
+			id: "176856E9E75E26B2"
+			rewards: [{
+				id: "1BF2A14A8A906305"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这下看懂了"
+			tasks: [
+				{
+					id: "4D7051AB6EE2D9D5"
+					item: "ad_astra:ostrum_engine"
+					type: "item"
+				}
+				{
+					id: "17C6B4AA46CEF3DB"
+					item: "ad_astra:ostrum_tank"
+					type: "item"
+				}
+			]
+			title: "紫金材料"
+			x: 19.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["176856E9E75E26B2"]
+			id: "666F1B1AEDC73856"
+			rewards: [{
+				id: "0DCBABA3A495ABE6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "去水星"
+			tasks: [{
+				id: "5AB787FAE71B03B0"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11976FDE8CB62FAC"]
+			id: "6739BC8EFF5DB397"
+			rewards: [{
+				id: "3AF2DDF054A5985D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "耐冷耐热"
+			tasks: [
+				{
+					id: "1C42507A0F978F48"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0781433BEF0B7337"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "126CD18AB4AD98F2"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "771F4A3031609BEB"
+					item: {
+						Count: 1b
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "下界合金航天服"
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["666F1B1AEDC73856"]
+			id: "144303C59461A70F"
+			rewards: [{
+				id: "0ECB406A47B2B1FB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "没有水"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				id: "1DE8DEE2F124134A"
+				type: "dimension"
+			}]
+			title: "水星"
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02AEEF86ECF96739"]
+			id: "794EAE8E23E98A3B"
+			rewards: [{
+				id: "497265289BAC8101"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2BA0E31AF1B23872"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C9ECA10355842AC"]
+			id: "25D6739795B8503E"
+			rewards: [{
+				id: "3049ACE60268FAB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78C19B5F27C95DBF"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"666F1B1AEDC73856"
+				"6739BC8EFF5DB397"
+			]
+			id: "7F0B6F4DE5C2376E"
+			rewards: [{
+				id: "6F85D70EDA6D4F05"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "金星真的有金子"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "06DA047D7B89872C"
+				type: "dimension"
+			}]
+			title: "金星"
+			x: 23.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["144303C59461A70F"]
+			id: "3F581D7B993421D9"
+			rewards: [{
+				id: "4A65A7937A235F3C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4B0D0CDA8D0E4F7C"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F0B6F4DE5C2376E"]
+			id: "3A2D827BF8C5FDE7"
+			tasks: [{
+				id: "7C041B7FB4D62F11"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F0B6F4DE5C2376E"]
+			id: "1D1B588BA0334E48"
+			rewards: [{
+				id: "3C318720F0B4FFBC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2B30DE4343E6119D"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6739BC8EFF5DB397"
+				"1D1B588BA0334E48"
+			]
+			id: "4952C7D510C69EFB"
+			rewards: [{
+				id: "6E5E48F7239F89F9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "真的能喷气吗"
+			tasks: [
+				{
+					id: "41D9C3778950663B"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F3BE3F5EF51C7FD"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09C6D604BE62A72F"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AD49F4F8EBC4BBA"
+					item: {
+						Count: 1b
+						id: "ad_astra:jet_suit_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E75ED1200ED51F2"
+					item: "ad_astra:energizer"
+					type: "item"
+				}
+			]
+			title: "喷气式航天服"
+			x: 27.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1D1B588BA0334E48"
+				"75466F3C0E7E2DAC"
+			]
+			id: "384C8F68E3D5B844"
+			rewards: [{
+				id: "320B1CCBED54EC73"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "还有高手？"
+			tasks: [
+				{
+					id: "5FC8BDF579200A55"
+					item: "ad_astra:calorite_engine"
+					type: "item"
+				}
+				{
+					id: "1C7EC4A9A5E74EB1"
+					item: "ad_astra:calorite_tank"
+					type: "item"
+				}
+			]
+			title: "耐热金属材料"
+			x: 27.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "18B53AFDC5606AD2"
+			tasks: [{
+				id: "513A3A883321C020"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "75466F3C0E7E2DAC"
+			rewards: [{
+				id: "69D3F007D62D0EF1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "无需击败骨龙"
+			tasks: [{
+				id: "5A1430839FD842F0"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["384C8F68E3D5B844"]
+			id: "2EDF78A84DB81CAD"
+			rewards: [{
+				id: "354F9BD5DBEA7F26"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "行星的命名权"
+			tasks: [{
+				id: "1DDFA59052BE06A0"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 29.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["07869181FCDCCF47"]
+			id: "01671671A8AE39A5"
+			tasks: [{
+				id: "1C96B4A7B85D5F37"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: 31.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EDF78A84DB81CAD"]
+			id: "07869181FCDCCF47"
+			rewards: [{
+				id: "788114135FC54B2B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "什么，半人马座比邻星？有三体人吗？"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "4A4AAAD56DE2C98F"
+				type: "dimension"
+			}]
+			title: "霜原星"
+			x: 31.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "0D1181902A27831A"
+			rewards: [{
+				id: "539C11EB2842D113"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "托卡马克装置"
+			tasks: [
+				{
+					id: "40008C2E5389912C"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "550D64F182E683B9"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "54ECC1D47B6BB127"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "2894984E015FD75B"
+					item: "mekanismgenerators:fusion_reactor_logic_adapter"
+					type: "item"
+				}
+			]
+			title: "搭建聚变反应堆"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D1181902A27831A"]
+			id: "3B41CF6AEA616362"
+			rewards: [{
+				id: "46021D1F7D61185F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "前往月球，从月沙中提取He3，点燃聚变反应堆！"
+			tasks: [{
+				id: "427111F31BEBD3E9"
+				item: "mekanismgenerators:fusion_fuel_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73ABBF55D022FDDE"]
+			description: [
+				"火箭着陆时你需要按住空格来减速，否则你会变成牢大&m(Man! What can I say!)&r"
+				""
+				"着陆后可以打开着陆器，你使用的火箭会在那里面"
+			]
+			id: "3D50739C54196DFA"
+			tasks: [{
+				id: "657A75215088E51C"
+				title: "关于火箭发射的提示"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+	]
+	title: "第五章：巨兽与星际时代"
+}

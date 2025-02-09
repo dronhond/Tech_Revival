@@ -1,0 +1,1671 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "16862CBAD76D6FA2"
+	group: "6555AD457948208E"
+	icon: "mekanism:basic_control_circuit"
+	id: "16862CBAD76D6FA2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			id: "318196097485CAE8"
+			rewards: [{
+				id: "36F033F5959E3B23"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "显示屏"
+			tasks: [
+				{
+					id: "6F00F437B60F2DA7"
+					item: "refinedstorage:cable"
+					type: "item"
+				}
+				{
+					id: "69201EC0729FF2F9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "refinedstorage:grid"
+						}
+					}
+					title: "Any #refinedstorage:grid"
+					type: "item"
+				}
+			]
+			title: "访问与连接"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			id: "5150205FF9A8D5F2"
+			rewards: [{
+				id: "680ADB44FC216AC4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "廉价外壳"
+			tasks: [
+				{
+					id: "7A2BA8A6AC60F8A7"
+					item: "refinedstorage:storage_housing"
+					type: "item"
+				}
+				{
+					id: "4AE1357DEACED072"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+			]
+			title: "存储"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04BBF1A4699F0AE6"]
+			id: "3F64202AC008E156"
+			rewards: [{
+				id: "4B2A7467D6F983FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "07767C9E23387990"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F64202AC008E156"]
+			id: "5C7D204CC466AF26"
+			tasks: [{
+				id: "5E2986200ECD86F1"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C7D204CC466AF26"]
+			id: "730D1B1E1A899226"
+			tasks: [{
+				id: "219C249D824C739E"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["730D1B1E1A899226"]
+			id: "66F3DA436B11AC1B"
+			rewards: [{
+				id: "7B08F26DDE3ED30A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "03678BE57892F627"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			id: "7EA07DA2932E28B3"
+			tasks: [{
+				id: "79052461D12B1A1D"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7EA07DA2932E28B3"]
+			id: "6775C34C07DABDEE"
+			tasks: [{
+				id: "21828A87DF8ECB2B"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6775C34C07DABDEE"]
+			id: "6621BDFFF0D8BC49"
+			tasks: [{
+				id: "22673CBE3520DCCE"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6621BDFFF0D8BC49"]
+			id: "1010D935D3877F31"
+			tasks: [{
+				id: "2AD4E5B54B50C546"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1DFE437828D033F1"]
+			id: "634DEA680CA5E7BC"
+			rewards: [{
+				id: "10852B79BCF8489D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "规模化的输电方式"
+			tasks: [{
+				id: "59850110A8BB891B"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["634DEA680CA5E7BC"]
+			id: "2FFA49A415073B8F"
+			rewards: [{
+				id: "3482E249420FBF8F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "211538E80659F8A3"
+				item: "mekanism:advanced_universal_cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FFA49A415073B8F"]
+			id: "6A911EFD78306EF5"
+			rewards: [{
+				id: "36F21041E72B301A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52314962DCC021ED"
+				item: "mekanism:elite_universal_cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A911EFD78306EF5"]
+			id: "698C47CAA4E5BCD6"
+			rewards: [{
+				id: "5F91C94FB6A0DDCE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "477C5CD65155EE24"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			id: "3BF546606CBA39AA"
+			rewards: [{
+				id: "0A45EBADD3839AF4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "锇锇锇，曲项向天歌"
+			tasks: [{
+				id: "792BB861A6ABC997"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			id: "15D43FAFFE72B080"
+			rewards: [{
+				id: "2D0F06EB1603EBE8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "将精灵钢使用控制器催化，即可消耗魔力来刻印一个基础控制电路"
+			tasks: [{
+				id: "15D67992C19207AA"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["575ED3FC405E59E1"]
+			id: "62EE7206170D1132"
+			rewards: [{
+				id: "0289FA65F7F94FA5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "最值钱的一集"
+			tasks: [{
+				id: "484F7BB9C5EBEC12"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3BF546606CBA39AA"
+				"62EE7206170D1132"
+				"15D43FAFFE72B080"
+			]
+			id: "1567761CCB7FC605"
+			rewards: [{
+				id: "37F5B60F4CA35B2D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "更便宜的控制电路生产器"
+			tasks: [{
+				id: "0E6906A520882A4C"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1567761CCB7FC605"]
+			id: "117B6CA7B9AB1EAA"
+			rewards: [{
+				id: "31C4E950B1F4B2A3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "难以想象地便宜"
+			tasks: [{
+				id: "64D78BD6B877BCA8"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1567761CCB7FC605"
+				"117B6CA7B9AB1EAA"
+			]
+			id: "3BD402CAA4CDCA9C"
+			rewards: [{
+				id: "2F8D3C07B989717F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "尽管是基础的，效率仍然惊人"
+			tasks: [
+				{
+					id: "7165F78CCFA3F7DE"
+					item: "mekanism:basic_smelting_factory"
+					type: "item"
+				}
+				{
+					id: "62A8102739FAFB07"
+					item: "mekanism:basic_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "172CE74F805E91D1"
+					item: "mekanism:basic_crushing_factory"
+					type: "item"
+				}
+				{
+					id: "62EC7B7942C94F26"
+					item: "mekanism:basic_compressing_factory"
+					type: "item"
+				}
+				{
+					id: "1D833DFD14937EAC"
+					item: "mekanism:basic_combining_factory"
+					type: "item"
+				}
+				{
+					id: "1CA6A48D69066B46"
+					item: "mekanism:basic_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "31C4402FE5AB7C3D"
+					item: "mekanism:basic_injecting_factory"
+					type: "item"
+				}
+				{
+					id: "2304DCC680335F5F"
+					item: "mekanism:basic_infusing_factory"
+					type: "item"
+				}
+				{
+					id: "6BDDBD8110AC18DC"
+					item: "mekanism:basic_sawing_factory"
+					type: "item"
+				}
+				{
+					id: "1636064A40DB4E43"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "765D79278CF01287"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+				{
+					id: "07AF3D0A73AE29D0"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "基础设备"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["117B6CA7B9AB1EAA"]
+			id: "0CA62F66C29E8318"
+			rewards: [{
+				id: "441CDBFAAF9E083B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "清洁能源"
+			tasks: [
+				{
+					id: "707E890A1B64404E"
+					item: "mekanismgenerators:solar_generator"
+					type: "item"
+				}
+				{
+					id: "68F667C516B79E93"
+					item: "mekanismgenerators:solar_panel"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15D43FAFFE72B080"]
+			id: "59259485F3DA96E3"
+			rewards: [{
+				id: "40A98CC3C21392F2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "使用鹿弹"
+			tasks: [{
+				id: "058A1D1316640B90"
+				item: "immersivepetroleum:seismic_survey"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59259485F3DA96E3"]
+			id: "4E48C58B2E6517A9"
+			rewards: [{
+				id: "27D1232440FA5D22"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建井架"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_derrick"
+				criterion: ""
+				id: "57615FDB8C34479E"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59259485F3DA96E3"]
+			id: "7789436B83A72E83"
+			rewards: [{
+				id: "15B20CD10A958640"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建储油罐"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_oiltank"
+				criterion: ""
+				id: "62BA115771A26942"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59259485F3DA96E3"]
+			id: "7200E1DB0528C14B"
+			rewards: [{
+				id: "47849C87A8EF4513"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建抽油井"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_pumpjack"
+				criterion: ""
+				id: "50B0A84CD72FEB5F"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E48C58B2E6517A9"
+				"7200E1DB0528C14B"
+				"7789436B83A72E83"
+			]
+			id: "388F03CA8A92E7E0"
+			tasks: [{
+				id: "36458274EEE5F0AC"
+				item: "immersivepetroleum:crudeoil_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D2388CE55A0661B"]
+			id: "370A28F7EA16A218"
+			rewards: [{
+				id: "1F88F59DE753E2DC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建一台斗轮式挖掘机"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_excavator"
+				criterion: ""
+				id: "24F83EDE73310754"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["59259485F3DA96E3"]
+			id: "1D2388CE55A0661B"
+			rewards: [{
+				id: "14D4B28E65CD5BD5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "框中窥豹"
+			tasks: [{
+				id: "40918221F3B2F281"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7200E1DB0528C14B"]
+			id: "1FCD023F44C3C0D2"
+			rewards: [{
+				id: "791CABAC0CCDB3E0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建一台分馏塔"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_distillationtower"
+				criterion: ""
+				id: "1A60F10D98E26936"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"388F03CA8A92E7E0"
+				"1FCD023F44C3C0D2"
+			]
+			id: "48D3513B3DE14E8E"
+			rewards: [{
+				id: "65529AA9DDEC3EEC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "工业流程题"
+			tasks: [
+				{
+					id: "3E37CA4386841D37"
+					item: "immersivepetroleum:gasoline_bucket"
+					type: "item"
+				}
+				{
+					id: "1B184FB25E310262"
+					item: "immersivepetroleum:kerosene_bucket"
+					type: "item"
+				}
+				{
+					id: "495FB94596EFFFC5"
+					item: "immersivepetroleum:diesel_bucket"
+					type: "item"
+				}
+			]
+			title: "分馏"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FCD023F44C3C0D2"]
+			id: "392AC059048CE4A5"
+			rewards: [{
+				id: "7D78D5BB706CEEBB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建一台焦炭塔"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_cokerunit"
+				criterion: ""
+				id: "3DBE1EF53E68885E"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["392AC059048CE4A5"]
+			id: "08D400261381A276"
+			rewards: [{
+				id: "5DF74F50710BB8AD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "时代的弃子"
+			tasks: [{
+				id: "2CE035C75160AB0A"
+				item: "immersivepetroleum:diesel_sulfur_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["388F03CA8A92E7E0"]
+			id: "323858628D849A3F"
+			tasks: [{
+				id: "33EB73C12F1C0D29"
+				item: "immersivepetroleum:flarestack"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["388F03CA8A92E7E0"]
+			id: "0FC0FABB0F0EE61A"
+			rewards: [{
+				id: "12701C13E8C82128"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "乙烯一克一克"
+			tasks: [{
+				id: "7C5EFA29B548BDA7"
+				item: "immersivepetroleum:ethylene_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FC0FABB0F0EE61A"]
+			id: "4755AFD57F31FF0F"
+			rewards: [{
+				id: "264715F71FBBA4F2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "工业的明珠"
+			tasks: [{
+				id: "7EDC8D285DAF3A11"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4755AFD57F31FF0F"]
+			id: "66A34F924943CC4F"
+			rewards: [{
+				id: "42652430003A08F9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "更好的材质"
+			tasks: [{
+				id: "789A5FB279E8B2E1"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66A34F924943CC4F"]
+			id: "5B987940EE311B74"
+			rewards: [{
+				id: "49A2C52EFD911955"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "足够科幻！"
+			tasks: [{
+				id: "718A0EE917171764"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66A34F924943CC4F"]
+			id: "3269320EB6564832"
+			rewards: [{
+				id: "1F7D96BF82B7BD90"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "电路里为何有机器框架？"
+			tasks: [{
+				id: "6D1F2C8B3F0F6DFE"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["66A34F924943CC4F"]
+			id: "549DE54A19E2724B"
+			rewards: [{
+				id: "398A1B80E6C624E7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "大人，时代真的变了"
+			tasks: [{
+				id: "075FB7820B62C35E"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3269320EB6564832"]
+			id: "7A2D883CE765CB22"
+			rewards: [{
+				id: "67EBED5AEF2C4C18"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "更多的产线"
+			tasks: [
+				{
+					id: "592C16DB00A3BC05"
+					item: "mekanism:advanced_smelting_factory"
+					type: "item"
+				}
+				{
+					id: "13350AE8B80628B1"
+					item: "mekanism:advanced_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "46F8FFDC9AFCBA83"
+					item: "mekanism:advanced_crushing_factory"
+					type: "item"
+				}
+				{
+					id: "5792B3A67DD1E0E4"
+					item: "mekanism:advanced_compressing_factory"
+					type: "item"
+				}
+				{
+					id: "7143F300001C6513"
+					item: "mekanism:advanced_combining_factory"
+					type: "item"
+				}
+				{
+					id: "38FCCE095147D124"
+					item: "mekanism:advanced_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "1DC9F3F60E779843"
+					item: "mekanism:advanced_injecting_factory"
+					type: "item"
+				}
+				{
+					id: "3FB1D796D1C8373F"
+					item: "mekanism:advanced_infusing_factory"
+					type: "item"
+				}
+				{
+					id: "101F86C4D5B7CCC5"
+					item: "mekanism:advanced_sawing_factory"
+					type: "item"
+				}
+				{
+					id: "6E9ECECFA2D95F5D"
+					item: "mekanism:advanced_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "09B85E420019ECC4"
+					item: "mekanism:advanced_energy_cube"
+					type: "item"
+				}
+				{
+					id: "0D831F30604C26E4"
+					item: "mekanism:advanced_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "高级设备"
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1FCD023F44C3C0D2"]
+			id: "1A7B654F9E2F437C"
+			rewards: [{
+				id: "5C18EABB1437455C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建一台高压精炼装置"
+			tasks: [{
+				advancement: "immersivepetroleum:main/mb_hydrotreater"
+				criterion: ""
+				id: "45CCDC9C9AB46775"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["117B6CA7B9AB1EAA"]
+			id: "7F73C6D7189AAEB3"
+			rewards: [{
+				id: "606586A991192AE3"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "分离氢氧"
+			tasks: [{
+				id: "0855E5456F0A81D1"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3269320EB6564832"]
+			id: "18312300944261EC"
+			tasks: [{
+				id: "6D8063651F611E52"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["18312300944261EC"]
+			id: "122931218DCFAF7C"
+			tasks: [{
+				id: "080E453DB4C589D6"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5B987940EE311B74"
+				"3269320EB6564832"
+			]
+			id: "1742B22B24FFCF2E"
+			tasks: [{
+				id: "73EAAC0BD488C0A3"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1742B22B24FFCF2E"]
+			id: "1A1329CB7E1B71C6"
+			rewards: [{
+				id: "6F9F210E81902E68"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "核科技"
+			tasks: [
+				{
+					id: "53DA3251401BD8C1"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "7B82A756A2FFC8CC"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "5643D18C91F8680A"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "2BDFBBA8365CE921"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+			]
+			title: "裂变反应堆"
+			x: 21.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["357D07714834E1E5"]
+			id: "48DA8DB59B287465"
+			rewards: [{
+				id: "1C30C6EFD06AA49A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "击杀巫妖王"
+			tasks: [{
+				id: "050AEE0AD08020C2"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["48DA8DB59B287465"]
+			id: "6BF0420AC24ABFC1"
+			rewards: [{
+				id: "68A2F226E962CDF1"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "滚烫"
+			tasks: [
+				{
+					id: "1DCBD7BB434127CE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "twilightforest:fiery_vial"
+						}
+					}
+					title: "Any #twilightforest:fiery_vial"
+					type: "item"
+				}
+				{
+					id: "799EB7625AB09098"
+					item: "twilightforest:fiery_ingot"
+					type: "item"
+				}
+			]
+			title: "你的热血和她们的热泪"
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["48DA8DB59B287465"]
+			id: "4533AAAA8402A1DE"
+			rewards: [{
+				id: "6028B7B706C508C7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "绝对不是镍做的！"
+			tasks: [{
+				id: "56E650CDC535053F"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1742B22B24FFCF2E"]
+			id: "077B8C9C1112DAFF"
+			rewards: [{
+				id: "69444CAE67EBBFE8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "i need more"
+			tasks: [
+				{
+					id: "31DC31428868A1CF"
+					item: "mekanism:elite_smelting_factory"
+					type: "item"
+				}
+				{
+					id: "6E3B9B351C8960B3"
+					item: "mekanism:elite_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "1A2CD5C46C26B27F"
+					item: "mekanism:elite_crushing_factory"
+					type: "item"
+				}
+				{
+					id: "2AF9F2D7FAD2FA60"
+					item: "mekanism:elite_compressing_factory"
+					type: "item"
+				}
+				{
+					id: "0299A2072B48074C"
+					item: "mekanism:elite_combining_factory"
+					type: "item"
+				}
+				{
+					id: "7AEE78DE838C80A7"
+					item: "mekanism:elite_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "284D131E2DB477D7"
+					item: "mekanism:elite_injecting_factory"
+					type: "item"
+				}
+				{
+					id: "7EF86857356A7AD0"
+					item: "mekanism:elite_infusing_factory"
+					type: "item"
+				}
+				{
+					id: "5372A3C7822FD1B8"
+					item: "mekanism:elite_sawing_factory"
+					type: "item"
+				}
+				{
+					id: "7B72CB10631EDF54"
+					item: "mekanism:elite_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "3DF750D160DBAD35"
+					item: "mekanism:elite_energy_cube"
+					type: "item"
+				}
+				{
+					id: "31F1BA7CE4CDE3B2"
+					item: "mekanism:elite_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "精英设备"
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["117B6CA7B9AB1EAA"]
+			id: "058F69C6301DF7AF"
+			rewards: [{
+				id: "4853A4B91D413356"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "从盐到反物质"
+			tasks: [
+				{
+					id: "19FA53FE71F04466"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					id: "3AC4E946F83B947A"
+					item: "mekanism:chemical_infuser"
+					type: "item"
+				}
+				{
+					id: "43A5EBC6FF320ABF"
+					item: "mekanism:chemical_washer"
+					type: "item"
+				}
+				{
+					id: "0591E4BCE5022273"
+					item: "mekanism:chemical_crystallizer"
+					type: "item"
+				}
+			]
+			title: "化学机器"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1742B22B24FFCF2E"]
+			id: "10340B0CA2B1EFA7"
+			rewards: [{
+				id: "47F262EFBC0C21BD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "还有高手？"
+			tasks: [{
+				id: "3B1AEBFF503FEF8A"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10340B0CA2B1EFA7"]
+			id: "0DEDD050779C07D8"
+			rewards: [{
+				id: "68CCF27721EF1591"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "并不是终点"
+			tasks: [
+				{
+					id: "63214D6B27BCCC50"
+					item: "mekanism:ultimate_smelting_factory"
+					type: "item"
+				}
+				{
+					id: "1259FF2398144F2A"
+					item: "mekanism:ultimate_enriching_factory"
+					type: "item"
+				}
+				{
+					id: "1BDC6EE6A39EDC1A"
+					item: "mekanism:ultimate_crushing_factory"
+					type: "item"
+				}
+				{
+					id: "483A6677BEADE235"
+					item: "mekanism:ultimate_compressing_factory"
+					type: "item"
+				}
+				{
+					id: "14D2B501031EC1EA"
+					item: "mekanism:ultimate_combining_factory"
+					type: "item"
+				}
+				{
+					id: "4570474E46658CAE"
+					item: "mekanism:ultimate_purifying_factory"
+					type: "item"
+				}
+				{
+					id: "60AE0F42410D37C2"
+					item: "mekanism:ultimate_injecting_factory"
+					type: "item"
+				}
+				{
+					id: "77489A3C07AC696F"
+					item: "mekanism:ultimate_infusing_factory"
+					type: "item"
+				}
+				{
+					id: "542CC633B2CBD4B4"
+					item: "mekanism:ultimate_sawing_factory"
+					type: "item"
+				}
+				{
+					id: "118CE21506C56F94"
+					item: "mekanism:ultimate_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "1FE36A15E53A8106"
+					item: "mekanism:ultimate_energy_cube"
+					type: "item"
+				}
+				{
+					id: "23C9708DB1B5543D"
+					item: "mekanism:ultimate_chemical_tank"
+					type: "item"
+				}
+			]
+			title: "终极设备"
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10340B0CA2B1EFA7"]
+			id: "44AE5FAE5D422C39"
+			rewards: [{
+				id: "1F827C1C11276175"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不是，你磁场呢？"
+			tasks: [{
+				id: "7D4689C6D9539682"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10340B0CA2B1EFA7"]
+			id: "348D2FC0DDE96A64"
+			rewards: [{
+				id: "43F4F40E5C7533B2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "挖掘万物"
+			tasks: [{
+				id: "21859F1D1DD669A3"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["348D2FC0DDE96A64"]
+			id: "03F2AA6C7B7E455C"
+			rewards: [{
+				id: "4B48B7C0FBF40325"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不一定更好用"
+			tasks: [{
+				id: "36FACC00C8DE3EE8"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1742B22B24FFCF2E"]
+			id: "0794E91766382260"
+			rewards: [{
+				id: "0876842E97B2083E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不用于发电"
+			tasks: [{
+				id: "7ED803284671DD5D"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["66D471B931486046"]
+			id: "3811295388ED06A3"
+			rewards: [{
+				id: "0A8CF21C4BB6DFE4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不是普通的塑料"
+			tasks: [{
+				id: "740C9BC249551C46"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["66D471B931486046"]
+			id: "5DDFF77193DB1C65"
+			rewards: [{
+				id: "2E72B024690761EA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "用于复制基片"
+			tasks: [{
+				id: "577D0A93980E6382"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"4533AAAA8402A1DE"
+				"6BF0420AC24ABFC1"
+				"4755AFD57F31FF0F"
+			]
+			id: "66D471B931486046"
+			rewards: [{
+				id: "0F13FA1F83F432BC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "无尽能源"
+			tasks: [{
+				id: "62F131DDEA0F5768"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["785756B74188053A"]
+			id: "0ADF4D05813A60AD"
+			rewards: [{
+				id: "30E7135715CC3DC2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "能否替代宇航服？"
+			tasks: [
+				{
+					id: "1B1505BB8CAB5662"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "641D28DA36BF380A"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "5261852525349C0E"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "02E4DE93C6ACCAAA"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "Meksuit"
+			x: 23.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			icon: "mekanism:yellow_cake_uranium"
+			id: "2E994EB5C1842DBD"
+			rewards: [{
+				id: "06F62FB8D4680762"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "没有放射性"
+			tasks: [
+				{
+					id: "7881EEF2E2FE0845"
+					item: "mekanism:yellow_cake_uranium"
+					type: "item"
+				}
+				{
+					id: "395C4DDD02D5B7EE"
+					item: "mekanism:dust_fluorite"
+					type: "item"
+				}
+			]
+			title: "核原料"
+			x: 25.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2E994EB5C1842DBD"
+				"44AE5FAE5D422C39"
+				"1A1329CB7E1B71C6"
+			]
+			id: "7E6D9F234D3A334A"
+			rewards: [{
+				id: "44BFE0CBB2C2DE0B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "核电，启动！"
+			tasks: [{
+				id: "4DA2C9BB621A587A"
+				item: "mekanism:uranium_hexafluoride_bucket"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E6D9F234D3A334A"]
+			id: "5CE76149417BAFC7"
+			rewards: [{
+				id: "21B29ED70066E174"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "小药片"
+			tasks: [{
+				id: "4E0BEB6A9CA69BDD"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0794E91766382260"
+				"7E6D9F234D3A334A"
+			]
+			id: "785756B74188053A"
+			rewards: [{
+				id: "527C69BEB6554EDF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "念po"
+			tasks: [{
+				id: "656FA2B3A811CAAE"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"785756B74188053A"
+				"5CE76149417BAFC7"
+			]
+			id: "5C94459839351398"
+			rewards: [{
+				id: "47D3EA48CE336895"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "扭转现实"
+			tasks: [
+				{
+					id: "66AF40C8368F588E"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "47B7372850E78037"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "023636D510C3D60C"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+			]
+			title: "超临界移相器"
+			x: 25.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5CE76149417BAFC7"]
+			id: "3306CF1D31377ECB"
+			rewards: [{
+				id: "0A8E87B691E7A4CA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "这也要回收？"
+			tasks: [{
+				id: "50649A2C8F264AF5"
+				item: "mekanism:reprocessed_fissile_fragment"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5C94459839351398"]
+			id: "522F066F31C49431"
+			rewards: [{
+				id: "34BBBEB82877129B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "浓缩的都是精华"
+			tasks: [{
+				id: "459171E118C05850"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			id: "14A7125609D60A1C"
+			tasks: [{
+				id: "2CFE85251BD1888E"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["522F066F31C49431"]
+			id: "648EAF33781386D7"
+			rewards: [{
+				id: "4DA48CD97DEAE889"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "超越时空"
+			tasks: [{
+				id: "234E427DB87DAC54"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 29.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["522F066F31C49431"]
+			id: "37934C0DB95A23FC"
+			rewards: [{
+				id: "3EE78F738180C97F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "我们的征途是星辰和大海！"
+			tasks: [{
+				id: "181D6CA586DE88B1"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["37934C0DB95A23FC"]
+			id: "27EACD1E6F0785AB"
+			rewards: [
+				{
+					id: "46B87921DC88EEA7"
+					item: {
+						Count: 1b
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_i"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1918C8D2EE92FDE2"
+					item: {
+						Count: 1b
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_hp"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34102EA5FB15F4EC"
+					item: {
+						Count: 1b
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_he"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D36A09949D5BE96"
+					item: {
+						Count: 1b
+						id: "tacz:attachment"
+						tag: {
+							AttachmentId: "tacz:ammo_mod_fmj"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56925E4693A1507C"
+				title: "恭喜您完成“第四章：盖亚与信息时代”的主线内容"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["10340B0CA2B1EFA7"]
+			id: "5FE2D40F4B260DD1"
+			rewards: [{
+				id: "1849751B300177DD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "会扭秧歌吗？"
+			tasks: [{
+				id: "197B0843FA88F7E6"
+				item: "mekanism:robit"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			id: "471594EA8C8DCC88"
+			rewards: [{
+				id: "5BBD69DFA5F57628"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "wifi已连接"
+			tasks: [{
+				id: "2E9720D18A768AA9"
+				item: "refinedstorage:wireless_grid"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34D55322DE9B5736"]
+			id: "34E1425A68F4C4BC"
+			tasks: [{
+				id: "102FCDDEAB4923CB"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34E1425A68F4C4BC"]
+			id: "07E4BF1351F7A259"
+			tasks: [{
+				id: "7EF5C287032B46E7"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34E1425A68F4C4BC"]
+			id: "18E63E14D1D06A1A"
+			tasks: [{
+				id: "4F7464FE6B82DA35"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+	]
+	title: "第四章：盖亚与信息时代"
+}

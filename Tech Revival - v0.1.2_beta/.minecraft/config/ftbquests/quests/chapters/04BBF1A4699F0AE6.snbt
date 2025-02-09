@@ -1,0 +1,1153 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "04BBF1A4699F0AE6"
+	group: "6555AD457948208E"
+	icon: "immersiveengineering:logic_circuit"
+	id: "04BBF1A4699F0AE6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["543953568A7E68CF"]
+			id: "0F9A34F75AD949B4"
+			rewards: [{
+				id: "357419A20CE34F76"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "流水线产物"
+			tasks: [
+				{
+					id: "4C0D8CEF72236AAB"
+					item: "immersiveengineering:mold_plate"
+					type: "item"
+				}
+				{
+					id: "19B013FC40AF119D"
+					item: "immersiveengineering:mold_rod"
+					type: "item"
+				}
+				{
+					id: "7F84D8A6245C1005"
+					item: "immersiveengineering:mold_gear"
+					type: "item"
+				}
+				{
+					id: "1DEBCCD3BBCED30E"
+					item: "immersiveengineering:mold_wire"
+					type: "item"
+				}
+			]
+			title: "金属模具"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "543953568A7E68CF"
+			rewards: [{
+				id: "1F8F83BFF1E0EFA4"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "必不可少"
+			tasks: [{
+				id: "477E9FFE2ED23A1E"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "6E2B6BA3FF3B83CC"
+			rewards: [{
+				id: "2643E30655923CE9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建金属冲压机"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "2804D19B076EFD6A"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "35500C64B3E2333A"
+			rewards: [{
+				id: "624C52D4CFF8D1D7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "打胶打的"
+			tasks: [
+				{
+					id: "5F0190F14CA4A38C"
+					item: "industrialforegoing:fluid_extractor"
+					type: "item"
+				}
+				{
+					id: "14975E56D3E0C8E0"
+					item: "industrialforegoing:latex_processing_unit"
+					type: "item"
+				}
+				{
+					id: "69CD556D08BC7D37"
+					item: "industrialforegoing:latex_bucket"
+					type: "item"
+				}
+			]
+			title: "橡胶工业"
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "5EB90B36B812E6BA"
+			rewards: [{
+				id: "12F21E4DB494C595"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "不然呢"
+			tasks: [
+				{
+					id: "16BC2F1D95295096"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					id: "119246BF2CD6C8C6"
+					item: "immersiveengineering:wirecoil_electrum"
+					type: "item"
+				}
+				{
+					id: "24C3C464239B3875"
+					item: "immersiveengineering:wirecoil_steel"
+					type: "item"
+				}
+				{
+					id: "6CEB956F6943F1BC"
+					item: "immersiveengineering:connector_mv"
+					type: "item"
+				}
+				{
+					id: "4CED4BD848366D38"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					id: "4E4CAF4B760FD7CC"
+					item: "immersiveengineering:wirecoil_steel"
+					type: "item"
+				}
+			]
+			title: "电力传输"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["35500C64B3E2333A"]
+			id: "10C5E64B1E6D6ABA"
+			rewards: [{
+				id: "7F84F8970D79BF25"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "长得像灯泡"
+			tasks: [{
+				id: "21A9C17DE04C3EC4"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10C5E64B1E6D6ABA"]
+			id: "213C9AC711B098B2"
+			rewards: [{
+				id: "6991FC264832CF6B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "轮胎的好原料"
+			tasks: [{
+				id: "4B13EB0C74DB0C91"
+				item: "immersiveengineering:plate_duroplast"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "71E093FC70A5D050"
+			rewards: [{
+				id: "641718F884614B34"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建工业挤压机"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_squeezer"
+				criterion: ""
+				id: "23D90FF29D758746"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "1320F858B8462E4A"
+			rewards: [{
+				id: "3E394E484D697CB9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建工业发酵机"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "222D63EE7A3177C9"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"71E093FC70A5D050"
+				"1320F858B8462E4A"
+			]
+			id: "7F0E025A603B0715"
+			rewards: [{
+				id: "6AB67B1BFA4612ED"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建炼油厂"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_refinery"
+				criterion: ""
+				id: "3F92CF88DB314527"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "30622D79F655A978"
+			rewards: [{
+				id: "6ABAE46118E81E80"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建一台混合器"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_mixer"
+				criterion: ""
+				id: "0284AE842E439D1F"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7F0E025A603B0715"]
+			id: "6B7B464F7F675483"
+			rewards: [{
+				id: "6330936F7BABC99F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建一台柴油发电机来使用它"
+			tasks: [{
+				id: "327D4BBFBE96282E"
+				item: "immersiveengineering:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"250A4A73007F6130"
+				"213C9AC711B098B2"
+			]
+			id: "20EA785496F0241E"
+			rewards: [{
+				id: "1463AB0DFD2A3962"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57C58C6140BDB43B"
+				item: "immersiveengineering:generator"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "2574772D1A9D41FA"
+			rewards: [{
+				id: "28B867F92882A807"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建一台电弧炉"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "37D86AF8D0DC4B25"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7F0E025A603B0715"
+				"1320F858B8462E4A"
+			]
+			id: "250A4A73007F6130"
+			rewards: [{
+				id: "4557A5C8F6CA6C23"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "有机化学"
+			tasks: [
+				{
+					id: "42EAA7BE1AB9EF61"
+					item: "immersiveengineering:acetaldehyde_bucket"
+					type: "item"
+				}
+				{
+					id: "6226DC629E69682C"
+					item: "immersiveengineering:ethanol_bucket"
+					type: "item"
+				}
+			]
+			title: "有机溶剂"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"20EA785496F0241E"
+				"5ADEBFC7F5F6DC7A"
+				"70C1E28067336119"
+			]
+			id: "76D26AF82B47D7C9"
+			rewards: [{
+				id: "4BCCB70323D67E29"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "发电量感人"
+			tasks: [
+				{
+					id: "1A170E7EE1646A7C"
+					item: "immersiveengineering:thermoelectric_generator"
+					type: "item"
+				}
+				{
+					id: "7DFAD07B8A23BCB9"
+					item: "immersiveengineering:dynamo"
+					type: "item"
+				}
+				{
+					id: "7FD68A255BB7F8A8"
+					item: "immersiveengineering:watermill"
+					type: "item"
+				}
+				{
+					id: "3E6AD575BF0F9088"
+					item: "immersiveengineering:windmill"
+					type: "item"
+				}
+			]
+			title: "其他发电机"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "5ADEBFC7F5F6DC7A"
+			rewards: [{
+				id: "6EDB5C360944FFEE"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "冰霜秒全场"
+			tasks: [{
+				id: "3899D89704CAFEB0"
+				item: "irons_spellbooks:ice_rune"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1CF6AFFDAC7FB410"
+				"250A4A73007F6130"
+				"7D1DA065C782D1C6"
+			]
+			id: "50B6ED820389F6DD"
+			tasks: [{
+				id: "09011D27154086D2"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["250A4A73007F6130"]
+			id: "738763D7E9E58F56"
+			rewards: [{
+				id: "2CB00E4B45CFF025"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "更便宜的工程塑胶板"
+			tasks: [{
+				id: "3B94152F10C231CB"
+				item: "immersiveengineering:phenolic_resin_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B7B464F7F675483"]
+			id: "3E9CAB3FFAC01DE9"
+			rewards: [{
+				id: "3CA6670BD1793359"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "搭建一台柴油发电机"
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
+				criterion: ""
+				id: "16469E5D9805496A"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["213C9AC711B098B2"]
+			id: "1CF6AFFDAC7FB410"
+			rewards: [{
+				id: "0F28EA66F82A8378"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "电子厂"
+			tasks: [
+				{
+					id: "73CCCCC3C72FB5ED"
+					item: "immersiveengineering:circuit_board"
+					type: "item"
+				}
+				{
+					id: "0AC119A0C7BF0457"
+					item: "immersiveengineering:logic_circuit"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["01FF175F814C96E0"]
+			id: "7D1DA065C782D1C6"
+			rewards: [{
+				id: "3ABF3D8815CDADDA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "阳光彩虹小白马"
+			tasks: [
+				{
+					id: "73B0E5E25D7889FA"
+					item: "botania:rainbow_rod"
+					type: "item"
+				}
+				{
+					id: "7A4CED6665726A00"
+					item: "botania:elf_glass"
+					type: "item"
+				}
+				{
+					id: "52C753DA823C8C9B"
+					item: "botania:bifrost_perm"
+					type: "item"
+				}
+			]
+			title: "彩虹7号"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50B6ED820389F6DD"]
+			id: "21F7166451DAA33A"
+			tasks: [{
+				id: "3967F8DBE1D12C9A"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "787F49019B29F852"
+			rewards: [{
+				id: "13542E68788430A8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "前往暮色森林，获得火炬浆果"
+			tasks: [{
+				id: "71254D737678A1AB"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["21F7166451DAA33A"]
+			id: "22FC69443EBF9DF7"
+			rewards: [{
+				id: "7AAA6AE60DD30F65"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "血是粉色的"
+			tasks: [{
+				id: "26129CA91C2953C9"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["22FC69443EBF9DF7"]
+			id: "6DD6DAA9AE5905EC"
+			rewards: [{
+				id: "401788ED593D740F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "会很粘稠吗"
+			tasks: [{
+				id: "3543AAA20310E609"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["787F49019B29F852"]
+			id: "07E8258BD61EE637"
+			rewards: [{
+				id: "610857AA2DB880A5"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "豁然开朗"
+			tasks: [{
+				id: "0E9A3C951A95CE1C"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"6DD6DAA9AE5905EC"
+				"787F49019B29F852"
+				"6B39DE3444994A17"
+			]
+			id: "7916483D8DC6AEE1"
+			tasks: [{
+				id: "43AAB24E16545778"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["37390913D7A63D64"]
+			id: "6B39DE3444994A17"
+			rewards: [{
+				id: "189A664BDA5AADF9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "势不两立"
+			tasks: [
+				{
+					id: "41632BAFF1490CFC"
+					item: "mythicbotany:asgard_rune"
+					type: "item"
+				}
+				{
+					id: "1CABC1D9ECC25B9A"
+					item: "mythicbotany:vanaheim_rune"
+					type: "item"
+				}
+			]
+			title: "阿斯加德与华纳海姆"
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7916483D8DC6AEE1"]
+			id: "5A176F48025220F9"
+			rewards: [{
+				id: "71FB489A8C2B1E72"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "精灵都没有的工艺"
+			tasks: [{
+				id: "26AE24C39DE09D1C"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["213C9AC711B098B2"]
+			id: "2DB2CE5233FE87C7"
+			rewards: [{
+				id: "30F2E7F79691D6F2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "手感不错"
+			tasks: [{
+				id: "64923970A7C2EF1E"
+				item: "immersiveengineering:wooden_grip"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DB2CE5233FE87C7"]
+			id: "71BC69CF9B4B5F97"
+			rewards: [{
+				id: "54E2FACE016FF3DB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "帅，但不一定强"
+			tasks: [
+				{
+					id: "3F6B10C84A7F125F"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "immersiveengineering:drill"
+					}
+					type: "item"
+				}
+				{
+					id: "25D76D548AD74594"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "immersiveengineering:buzzsaw"
+					}
+					type: "item"
+				}
+				{
+					id: "7995151490A4A81A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 21
+							}
+						}
+						id: "immersiveengineering:revolver"
+					}
+					type: "item"
+				}
+				{
+					id: "3683D743A8C9465C"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 3
+							}
+						}
+						id: "immersiveengineering:railgun"
+					}
+					type: "item"
+				}
+				{
+					id: "46AE7F1E1A820C9D"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 4
+							}
+						}
+						id: "immersiveengineering:powerpack"
+					}
+					type: "item"
+				}
+			]
+			title: "工程师机械"
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2DB2CE5233FE87C7"]
+			id: "5B75A3F5FC4C082C"
+			rewards: [{
+				id: "5467BBB0050A75EC"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "子弹制作"
+			tasks: [
+				{
+					id: "2E0F86275628F010"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "bullet"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C113998CE946D7F"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:blueprint"
+						tag: {
+							blueprint: "specialBullet"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B75A3F5FC4C082C"]
+			id: "413B6D088AAA49CF"
+			rewards: [{
+				id: "7E8B747C3D71F473"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "普通子弹"
+			tasks: [
+				{
+					id: "0B397956D5E3875E"
+					item: "immersiveengineering:empty_casing"
+					type: "item"
+				}
+				{
+					id: "4648F99227004079"
+					item: "immersiveengineering:empty_shell"
+					type: "item"
+				}
+			]
+			title: "弹壳"
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5A176F48025220F9"
+				"357D07714834E1E5"
+			]
+			id: "643B67269D5AEBBF"
+			tasks: [{
+				id: "769CE00B175C6A2E"
+				item: "mythicbotany:alfsteel_pylon"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["07E8258BD61EE637"]
+			id: "357D07714834E1E5"
+			rewards: [{
+				id: "20115EDE3F646BC0"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "坚不可摧"
+			tasks: [{
+				id: "5513435A88AAF7AB"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["643B67269D5AEBBF"]
+			id: "0999E7A9F0F7E87F"
+			rewards: [{
+				id: "3DF55CEC9FFB1FE8"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "记得做四个"
+			tasks: [{
+				id: "5C2EBB7FB74D0F56"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0994333129404B25"]
+			id: "4B973B67A0CE6BD7"
+			rewards: [{
+				id: "674C8E39A2A7364A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "打得过吗你"
+			tasks: [
+				{
+					id: "683116CB98A6B77D"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "1A8A4BEF62CC5D9A"
+					item: "minecraft:beacon"
+					type: "item"
+				}
+				{
+					entity: "minecraft:wither"
+					id: "79E635D5F3FE3870"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "打凋零~"
+			x: -13.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"0999E7A9F0F7E87F"
+				"4B973B67A0CE6BD7"
+			]
+			id: "7B535087B9C3FCE4"
+			tasks: [{
+				id: "19D365E31B2CBBF9"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50B6ED820389F6DD"]
+			id: "2D1E4E5023AC9F18"
+			tasks: [{
+				id: "755276AF1F0BF124"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2574772D1A9D41FA"
+				"4B3E994CABD617F2"
+			]
+			id: "6A5ED72559DDA213"
+			tasks: [{
+				id: "7FBDC52B2E7B9485"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["25A9B5DD83CFADA4"]
+			id: "4B3E994CABD617F2"
+			subtitle: "锻造好帮手"
+			tasks: [{
+				id: "7B48031A1605C405"
+				item: "createindustry:limesand"
+				type: "item"
+			}]
+			title: "石灰"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"6A5ED72559DDA213"
+				"2D1E4E5023AC9F18"
+			]
+			id: "7AEAA15249C641F3"
+			tasks: [{
+				id: "4EB13664F6BA6A2B"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7B535087B9C3FCE4"]
+			id: "6F51BD8B71CDB81F"
+			rewards: [{
+				id: "0CC27806F98DD529"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "过于高级"
+			tasks: [{
+				id: "100C4BF02D6E17E4"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6F51BD8B71CDB81F"]
+			id: "1D0C223917B2BF15"
+			rewards: [{
+				id: "015ACE1016F50856"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "终极物流"
+			tasks: [{
+				id: "5F7B72EB4F24072F"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["1D0C223917B2BF15"]
+			id: "34D55322DE9B5736"
+			rewards: [{
+				id: "1C60231CCD461494"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46E026E33DC593C1"
+				title: "恭喜您完成“精灵与电力时代”的主线内容"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["7B535087B9C3FCE4"]
+			id: "4804EB180752DCF6"
+			rewards: [{
+				id: "45F0A852C9CDB074"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "终极效率"
+			tasks: [{
+				id: "7677E456C20AE318"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2574772D1A9D41FA"]
+			id: "7D39080231CF71F8"
+			rewards: [{
+				id: "10D7A6ABA8616E6D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "100%空手接白刃"
+			tasks: [{
+				id: "57A6647E3DE4D141"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "electrode"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["50B6ED820389F6DD"]
+			id: "4DB7537FA8157A88"
+			rewards: [{
+				id: "2C8541AFBC0F4CBB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "大卫 戴"
+			tasks: [{
+				id: "11B4B1064990BFEF"
+				item: "thirstcanteen:dragon_bottle"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B973B67A0CE6BD7"]
+			id: "2F16997C3C9E0F06"
+			rewards: [{
+				id: "3799922E4E60D7B7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "寻找上古文明遗留的战争机器"
+			tasks: [{
+				id: "1F97DB5B0499953D"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5A176F48025220F9"]
+			id: "4E132B9C0658E264"
+			rewards: [{
+				id: "1D1AB4B34BD96EEF"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "准备前往亚福尔海姆"
+			tasks: [
+				{
+					id: "038B54DD03C57B7D"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+				{
+					id: "2464EE640B9A9094"
+					item: {
+						Count: 1b
+						id: "botania:ender_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AB164D246983CF8"
+					item: "mythicbotany:gjallar_horn_full"
+					type: "item"
+				}
+				{
+					id: "7A68D54F167DCDEA"
+					item: "mythicbotany:fimbultyr_tablet"
+					type: "item"
+				}
+			]
+			title: "亚福尔海姆"
+			x: -9.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4E132B9C0658E264"]
+			description: ["喝下它后，你将可以通过精灵传送门进入艾尔夫海姆"]
+			id: "419FD9C36DD1FAF2"
+			rewards: [{
+				id: "031BCB6631303792"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "如同智慧之泉"
+			tasks: [{
+				id: "4736CEB8D48FA691"
+				item: "mythicbotany:kvasir_mead"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["419FD9C36DD1FAF2"]
+			id: "64ACA840540D4F93"
+			tasks: [{
+				dimension: "mythicbotany:alfheim"
+				id: "76199FC2BDE662E7"
+				type: "dimension"
+			}]
+			title: "精灵的国度"
+			x: -11.5d
+			y: -8.5d
+		}
+	]
+	title: "第三章：精灵与电力时代"
+}
